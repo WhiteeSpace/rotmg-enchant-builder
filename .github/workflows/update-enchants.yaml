@@ -1,0 +1,25 @@
+name: Update ROTMG enchant database
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-enchants:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update enchants database
+        run: python scripts/update_enchants.py
+      - name: Commit database changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update ROTMG enchant database"
+          file_pattern: data/enchants.json data/enchants.meta.json data/realmeye_enchanting.html
