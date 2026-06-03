@@ -1,49 +1,278 @@
-name: Detect new RealmEye enchants
+#!/usr/bin/env python3
+from __future__ import annotations
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 8 * * *"
+import datetime as dt
+import html
+import json
+import re
+import sys
+from pathlib import Path
+from typing import Any
+from urllib.parse import urljoin
+from urllib.request import Request, urlopen
 
-permissions:
-  contents: write
-  pull-requests: write
+REALMEYE_URL = "https://www.realmeye.com/wiki/enchanting"
 
-jobs:
-  detect-new-enchants:
-    runs-on: ubuntu-latest
+ROOT = Path(__file__).resolve().parents[1]
+DB_PATH = ROOT / "data" / "enchants.json"
+REPORT_PATH = ROOT / "data" / "new_enchants_report.json"
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+ITEM_TYPES = ["WEAPON", "ABILITY", "ARMOR", "RING"]
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+MIN_CONFIDENCE = 70
 
-      - name: Detect new enchants
-        run: |
-          python scripts/detect_new_enchants.py
 
-      - name: Check for changes
-        id: changes
-        run: |
-          if git diff --quiet data/enchants.json data/new_enchants_report.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
+def slugify(text: str) -> str:
+    text = text.lower().replace("’", "").replace("'", "")
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    return text or "enchant"
 
-      - name: Create Pull Request
-        if: steps.changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: "Detect new RealmEye enchants"
-          title: "[Auto] New RealmEye enchants detected"
-          body-path: data/new_enchants_report.json
-          branch: auto/new-realmeye-enchants
-          delete-branch: true
-          labels: |
-            automated
-            enchant-database
+
+def clean_text(raw: str) -> str:
+    raw = re.sub(r"<br\s*/?>", " | ", raw, flags=re.I)
+    raw = re.sub(r"</p>\s*<p[^>]*>", " | ", raw, flags=re.I)
+    raw = re.sub(r"<li[^>]*>", " | - ", raw, flags=re.I)
+    raw = re.sub(r"<[^>]+>", " ", raw)
+    raw = html.unescape(raw)
+    raw = re.sub(r"\s+", " ", raw)
+    return raw.strip(" |")
+
+
+def fetch_realmeye() -> str:
+    req = Request(
+        REALMEYE_URL,
+        headers={
+            "User-Agent": "Mozilla/5.0 ROTMG-Enchant-Builder-New-Enchant-Detector/1.0"
+        },
+    )
+    with urlopen(req, timeout=30) as response:
+        return response.read().decode("utf-8", errors="replace")
+
+
+def extract_icon(cell_html: str) -> str:
+    match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', cell_html, flags=re.I)
+    if not match:
+        return ""
+    return urljoin(REALMEYE_URL, html.unescape(match.group(1)))
+
+
+def infer_eligible(text: str) -> list[str]:
+    found = [t for t in ITEM_TYPES if re.search(rf"\b{t}\b", text, flags=re.I)]
+    lower = text.lower()
+
+    if not found:
+        if "weapon" in lower:
+            found.append("WEAPON")
+        if "ability" in lower:
+            found.append("ABILITY")
+        if "armor" in lower:
+            found.append("ARMOR")
+        if "ring" in lower:
+            found.append("RING")
+
+    return found or ["ALL"]
+
+
+def infer_groups(text: str) -> list[str]:
+    lower = text.lower()
+    groups: list[str] = []
+
+    checks = {
+        "attack": [" att", "attack"],
+        "defense": [" def", "defense"],
+        "dexterity": [" dex", "dexterity"],
+        "speed": [" spd", "speed"],
+        "vitality": [" vit", "vitality"],
+        "wisdom": [" wis", "wisdom"],
+        "life": [" hp", "life", "max hp"],
+        "mana": [" mp", "mana", "max mp"],
+        "weapon_damage": ["weapon damage", "damage"],
+        "fire_rate": ["fire rate", "rate of fire"],
+        "range": ["range", "projectile speed", "projectile range", "lifetime"],
+        "ability": ["ability", "mp cost", "cooldown", "cost reduction"],
+        "proc": ["on shoot", "on hit", "proc", "fire ", "spawn ", "summon"],
+        "reward": ["loot", "xp", "dust"],
+        "tradeoff": ["lowers", "minus", "tradeoff", "trade-off"],
+        "awakened": ["awakened"],
+        "unique": ["unique"],
+        "armor_piercing": ["armor piercing"],
+    }
+
+    for group, words in checks.items():
+        if any(word in lower for word in words):
+            groups.append(group)
+
+    return groups or ["other"]
+
+
+def infer_labels(name: str, effects: str, category: str) -> list[str]:
+    text = f"{name} {effects} {category}"
+    lower = text.lower()
+    labels: list[str] = []
+
+    label_checks = {
+        "SINGLESTAT": ["single stat"],
+        "ATTACK": ["attack", " att"],
+        "DEFENSE": ["defense", " def"],
+        "DEXTERITY": ["dexterity", " dex"],
+        "SPEED": ["speed", " spd"],
+        "VITALITY": ["vitality", " vit"],
+        "WISDOM": ["wisdom", " wis"],
+        "LIFE": ["life", " hp"],
+        "MANA": ["mana", " mp"],
+        "WEAPONDAMAGE": ["weapon damage"],
+        "PROC": ["on shoot", "on hit", "proc", "fire ", "spawn ", "summon"],
+        "ARMORPIERCING": ["armor piercing"],
+        "UNIQUE": ["unique"],
+        "AWAKENED": ["awakened"],
+    }
+
+    for label, words in label_checks.items():
+        if any(word in lower for word in words):
+            labels.append(label)
+
+    return labels
+
+
+def infer_incompatible_labels(labels: list[str]) -> list[str]:
+    for label in ["SINGLESTAT", "PROC", "UNIQUE", "AWAKENED"]:
+        if label in labels:
+            return [label]
+    return []
+
+
+def confidence_score(name: str, effects: str, category: str) -> int:
+    score = 0
+    lower = f"{name} {effects} {category}".lower()
+
+    if len(name) >= 4 and not name.isdigit():
+        score += 25
+    if any(x in lower for x in ["enchant", "bonus", "weapon damage", "on shoot", "on hit"]):
+        score += 25
+    if any(x in lower for x in ["att", "def", "dex", "spd", "vit", "wis", "hp", "mp", "%"]):
+        score += 20
+    if len(effects) >= 8:
+        score += 20
+    if any(x in lower for x in ["dust", "enchanter", "green dust", "consume"]):
+        score -= 60
+    if name.isdigit():
+        score -= 80
+
+    return max(0, min(100, score))
+
+
+def parse_realmeye_enchants(page_html: str) -> list[dict[str, Any]]:
+    candidates: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    parts = re.split(r"(<h[2-4][^>]*>.*?</h[2-4]>)", page_html, flags=re.I | re.S)
+    sections: list[tuple[str, str]] = []
+
+    if len(parts) > 1:
+        iterator = iter(parts[1:])
+        for heading, body in zip(iterator, iterator):
+            sections.append((clean_text(heading), body))
+    else:
+        sections.append(("Enchantments", page_html))
+
+    for category, body in sections:
+        tables = re.findall(r"<table[^>]*>(.*?)</table>", body, flags=re.I | re.S)
+
+        for table in tables:
+            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", table, flags=re.I | re.S)
+            if len(rows) < 2:
+                continue
+
+            for row in rows[1:]:
+                raw_cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, flags=re.I | re.S)
+                cells = [clean_text(c) for c in raw_cells]
+
+                if len(cells) < 2:
+                    continue
+
+                name = cells[0].strip()
+                effects = " ".join(cells[1:]).strip()
+
+                if not name or name.lower() in {"name", "enchantment"}:
+                    continue
+
+                enchant_id = slugify(name)
+                if enchant_id in seen:
+                    continue
+
+                icon = extract_icon(raw_cells[0] + " " + " ".join(raw_cells[1:]))
+                joined = f"{name} {effects} {category}"
+
+                confidence = confidence_score(name, effects, category)
+                if confidence < MIN_CONFIDENCE:
+                    continue
+
+                labels = infer_labels(name, effects, category)
+
+                candidate = {
+                    "id": enchant_id,
+                    "name": name,
+                    "category": category or "Enchantments",
+                    "eligible": infer_eligible(joined),
+                    "effects": effects,
+                    "labels": labels,
+                    "incompatibleLabels": infer_incompatible_labels(labels),
+                    "icon": icon,
+                    "groups": infer_groups(joined),
+                }
+
+                candidates.append(candidate)
+                seen.add(enchant_id)
+
+    return candidates
+
+
+def main() -> int:
+    if not DB_PATH.exists():
+        print(f"Missing database: {DB_PATH}", file=sys.stderr)
+        return 1
+
+    current_db = json.loads(DB_PATH.read_text(encoding="utf-8"))
+    current_enchants = current_db.get("enchants", [])
+    current_ids = {e.get("id") for e in current_enchants}
+    current_names = {str(e.get("name", "")).lower() for e in current_enchants}
+
+    page_html = fetch_realmeye()
+    parsed = parse_realmeye_enchants(page_html)
+
+    new_enchants = [
+        e for e in parsed
+        if e["id"] not in current_ids and e["name"].lower() not in current_names
+    ]
+
+    report = {
+        "checkedAt": dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "sourceUrl": REALMEYE_URL,
+        "currentCount": len(current_enchants),
+        "parsedRealmEyeCount": len(parsed),
+        "newCount": len(new_enchants),
+        "newEnchantIds": [e["id"] for e in new_enchants],
+    }
+
+    if not new_enchants:
+        REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print("No new enchants detected.")
+        return 0
+
+    current_db["enchants"].extend(new_enchants)
+    current_db["enchants"] = sorted(current_db["enchants"], key=lambda e: e.get("name", "").lower())
+    current_db["updatedFromOriginalHtml"] = dt.date.today().isoformat()
+    current_db["lastRealmEyeDetection"] = report
+
+    DB_PATH.write_text(json.dumps(current_db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    REPORT_PATH.write_text(json.dumps(report | {"newEnchants": new_enchants}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    print(f"Detected {len(new_enchants)} new enchants.")
+    for enchant in new_enchants:
+        print(f"- {enchant['name']}")
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
