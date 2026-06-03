@@ -1,7 +1,10 @@
 {
   "source": "RealmEye enchanting HTML",
-  "generatedFrom": "html enchanting realmeye.html",
-  "updatedFromOriginalHtml": "2026-06-02",
+  "sourceUrl": "https://www.realmeye.com/wiki/enchanting",
+  "generatedFrom": "scripts/update_enchants.py",
+  "updatedFromOriginalHtml": "2026-06-03",
+  "generatedAt": "2026-06-03T12:16:25Z",
+  "htmlSha256": "1a04ad29729fc7abc7f008aed9fe299280bf645e2a6533ec3dde1e8cbe8be3e6",
   "itemTypes": [
     "WEAPON",
     "ABILITY",
@@ -10,20 +13,116 @@
   ],
   "enchants": [
     {
-      "id": "attack-bonus",
-      "name": "Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "id": "3",
+      "name": "3",
+      "category": "Enchanter",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.4/2.2/3/3.8 ATT",
+      "effects": "Dust Capacity - Shows your current and maximum dust capacity for each type of dust . | Each type has an initial maximum capacity of 2000 which can be further increased with dust capactity upgrades.",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "reward"
+      ]
+    },
+    {
+      "id": "uncommon",
+      "name": "Uncommon",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "50% 50% 40% 52.5% 42% 1",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "rare",
+      "name": "Rare",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "37.5% 18.75% 15% 19.6875% 15.75% 2",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "legendary",
+      "name": "Legendary",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "25% 4.6875% 3.75% 4.921875% 3.9375% 3",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "divine",
+      "name": "Divine",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "12.5% 0.5859375% 0.46875% 0.6152344% 0.4921875% 4",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "enchantment-name",
+      "name": "Enchantment Name",
+      "category": "Basic Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Eligible Items Effect(s) I / II / III / IV Enchantment Labels Incompatible Labels",
       "labels": [
+        "III"
+      ],
+      "incompatibleLabels": [
+        "III"
+      ],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "attack-bonus",
+      "name": "Attack Bonus",
+      "category": "Basic Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "ALL +1.4/2.2/3/3.8 ATT SINGLESTAT | ATTACK | FLATBONUS SINGLESTAT",
+      "labels": [
+        "ALL",
+        "ATT",
         "SINGLESTAT",
         "ATTACK",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -33,18 +132,20 @@
     {
       "id": "defense-bonus",
       "name": "Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +1.4/2.2/3/3.8 DEF SINGLESTAT | DEFENSE | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "SINGLESTAT",
         "DEFENSE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -54,18 +155,20 @@
     {
       "id": "dexterity-bonus",
       "name": "Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +1.4/2.2/3/3.8 DEX SINGLESTAT | DEXTERITY | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "SINGLESTAT",
         "DEXTERITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -75,18 +178,19 @@
     {
       "id": "mana-bonus",
       "name": "Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/30/40/50 MP",
+      "effects": "ALL +20/30/40/50 MP SINGLESTAT | MANA | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
         "SINGLESTAT",
         "MANA",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -96,18 +200,19 @@
     {
       "id": "life-bonus",
       "name": "Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+15/20/25/30 HP",
+      "effects": "ALL +15/20/25/30 HP SINGLESTAT | LIFE | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
         "SINGLESTAT",
         "LIFE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -117,18 +222,20 @@
     {
       "id": "speed-bonus",
       "name": "Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +2.2/3.4/4.6/5.8 SPD SINGLESTAT | SPEED | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "SINGLESTAT",
         "SPEED",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -138,18 +245,20 @@
     {
       "id": "vitality-bonus",
       "name": "Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +1.8/2.8/3.8/4.8 VIT SINGLESTAT | VITALITY | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "SINGLESTAT",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -159,18 +268,20 @@
     {
       "id": "wisdom-bonus",
       "name": "Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +1.8/2.8/3.8/4.8 WIS SINGLESTAT | WISDOM | FLATBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "SINGLESTAT",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -180,18 +291,20 @@
     {
       "id": "relative-attack-bonus",
       "name": "Relative Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% ATT of Bonus ATT",
+      "effects": "ALL +7%/10%/13%/16% ATT of Bonus ATT SINGLESTAT | ATTACK | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "SINGLESTAT",
         "ATTACK",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -201,18 +314,20 @@
     {
       "id": "relative-defense-bonus",
       "name": "Relative Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+6%/8%/10%/12% DEF of Bonus DEF",
+      "effects": "ALL +6%/8%/10%/12% DEF of Bonus DEF SINGLESTAT | DEFENSE | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "SINGLESTAT",
         "DEFENSE",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -222,18 +337,20 @@
     {
       "id": "relative-dexterity-bonus",
       "name": "Relative Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEX of Bonus DEX",
+      "effects": "ALL +7%/10%/13%/16% DEX of Bonus DEX SINGLESTAT | DEXTERITY | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "SINGLESTAT",
         "DEXTERITY",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -243,18 +360,19 @@
     {
       "id": "relative-mana-bonus",
       "name": "Relative Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+6%/8%/10%/12% MP of Bonus MP",
+      "effects": "ALL +6%/8%/10%/12% MP of Bonus MP SINGLESTAT | MANA | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
         "SINGLESTAT",
         "MANA",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -264,18 +382,19 @@
     {
       "id": "relative-life-bonus",
       "name": "Relative Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+6%/8%/10%/12% HP of Bonus HP",
+      "effects": "ALL +6%/8%/10%/12% HP of Bonus HP SINGLESTAT | LIFE | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
         "SINGLESTAT",
         "LIFE",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -285,18 +404,20 @@
     {
       "id": "relative-speed-bonus",
       "name": "Relative Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% SPD of Bonus SPD",
+      "effects": "ALL +7%/10%/13%/16% SPD of Bonus SPD SINGLESTAT | SPEED | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "SINGLESTAT",
         "SPEED",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -306,18 +427,20 @@
     {
       "id": "relative-vitality-bonus",
       "name": "Relative Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% VIT of Bonus VIT",
+      "effects": "ALL +7%/10%/13%/16% VIT of Bonus VIT SINGLESTAT | VITALITY | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "SINGLESTAT",
         "VITALITY",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -327,18 +450,20 @@
     {
       "id": "relative-wisdom-bonus",
       "name": "Relative Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% WIS of Bonus WIS",
+      "effects": "ALL +7%/10%/13%/16% WIS of Bonus WIS SINGLESTAT | WISDOM | RELATIVEBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "SINGLESTAT",
         "WISDOM",
         "RELATIVEBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -348,18 +473,21 @@
     {
       "id": "defense-to-attack-bonus",
       "name": "Defense To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+6%/8%/10%/12% ATT of Bonus DEF",
+      "effects": "ALL +6%/8%/10%/12% ATT of Bonus DEF SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "DEF",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -370,18 +498,21 @@
     {
       "id": "dexterity-to-attack-bonus",
       "name": "Dexterity To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% ATT of Bonus DEX",
+      "effects": "ALL +7%/10%/13%/16% ATT of Bonus DEX SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "DEX",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -392,83 +523,94 @@
     {
       "id": "mana-to-attack-bonus",
       "name": "Mana To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% ATT of Bonus MP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% ATT of Bonus MP SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "attack"
+        "attack",
+        "mana"
       ]
     },
     {
       "id": "life-to-attack-bonus",
       "name": "Life To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% ATT of Bonus HP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% ATT of Bonus HP SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "attack"
+        "attack",
+        "life"
       ]
     },
     {
       "id": "speed-to-attack-bonus",
       "name": "Speed To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% ATT of Bonus SPD",
+      "effects": "ALL +7%/10%/13%/16% ATT of Bonus SPD SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "SPD",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "attack"
+        "attack",
+        "speed"
       ]
     },
     {
       "id": "vitality-to-attack-bonus",
       "name": "Vitality To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% ATT of Bonus VIT",
+      "effects": "ALL +7%/10%/13%/16% ATT of Bonus VIT SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "VIT",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -479,18 +621,21 @@
     {
       "id": "wisdom-to-attack-bonus",
       "name": "Wisdom To Attack Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% ATT of Bonus WIS",
+      "effects": "ALL +7%/10%/13%/16% ATT of Bonus WIS SINGLESTAT | ATTACK | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "WIS",
         "SINGLESTAT",
         "ATTACK",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -501,126 +646,144 @@
     {
       "id": "attack-to-defense-bonus",
       "name": "Attack To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEF of Bonus ATT",
+      "effects": "ALL +7%/10%/13%/16% DEF of Bonus ATT SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "ATT",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "defense"
       ]
     },
     {
       "id": "dexterity-to-defense-bonus",
       "name": "Dexterity To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEF of Bonus DEX",
+      "effects": "ALL +7%/10%/13%/16% DEF of Bonus DEX SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "DEX",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "dexterity",
-        "defense"
+        "defense",
+        "dexterity"
       ]
     },
     {
       "id": "mana-to-defense-bonus",
       "name": "Mana To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% DEF of Bonus MP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% DEF of Bonus MP SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "defense"
+        "defense",
+        "mana"
       ]
     },
     {
       "id": "life-to-defense-bonus",
       "name": "Life To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% DEF of Bonus HP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% DEF of Bonus HP SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "defense"
+        "defense",
+        "life"
       ]
     },
     {
       "id": "speed-to-defense-bonus",
       "name": "Speed To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEF of Bonus SPD",
+      "effects": "ALL +7%/10%/13%/16% DEF of Bonus SPD SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "SPD",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "defense"
+        "defense",
+        "speed"
       ]
     },
     {
       "id": "vitality-to-defense-bonus",
       "name": "Vitality To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEF of Bonus VIT",
+      "effects": "ALL +7%/10%/13%/16% DEF of Bonus VIT SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "VIT",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -631,18 +794,21 @@
     {
       "id": "wisdom-to-defense-bonus",
       "name": "Wisdom To Defense Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEF of Bonus WIS",
+      "effects": "ALL +7%/10%/13%/16% DEF of Bonus WIS SINGLESTAT | DEFENSE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "WIS",
         "SINGLESTAT",
         "DEFENSE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -653,126 +819,144 @@
     {
       "id": "attack-to-dexterity-bonus",
       "name": "Attack To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEX of Bonus ATT",
+      "effects": "ALL +7%/10%/13%/16% DEX of Bonus ATT SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "ATT",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "dexterity"
       ]
     },
     {
       "id": "defense-to-dexterity-bonus",
       "name": "Defense To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEX of Bonus DEF",
+      "effects": "ALL +7%/10%/13%/16% DEX of Bonus DEF SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "DEF",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "dexterity",
-        "defense"
+        "defense",
+        "dexterity"
       ]
     },
     {
       "id": "mana-to-dexterity-bonus",
       "name": "Mana To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% DEX of Bonus MP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% DEX of Bonus MP SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "dexterity"
+        "dexterity",
+        "mana"
       ]
     },
     {
       "id": "life-to-dexterity-bonus",
       "name": "Life To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% DEX of Bonus HP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% DEX of Bonus HP SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "dexterity"
+        "dexterity",
+        "life"
       ]
     },
     {
       "id": "speed-to-dexterity-bonus",
       "name": "Speed To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEX of Bonus SPD",
+      "effects": "ALL +7%/10%/13%/16% DEX of Bonus SPD SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "SPD",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "dexterity"
+        "dexterity",
+        "speed"
       ]
     },
     {
       "id": "vitality-to-dexterity-bonus",
       "name": "Vitality To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEX of Bonus VIT",
+      "effects": "ALL +7%/10%/13%/16% DEX of Bonus VIT SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "VIT",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -783,18 +967,21 @@
     {
       "id": "wisdom-to-dexterity-bonus",
       "name": "Wisdom To Dexterity Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% DEX of Bonus WIS",
+      "effects": "ALL +7%/10%/13%/16% DEX of Bonus WIS SINGLESTAT | DEXTERITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "WIS",
         "SINGLESTAT",
         "DEXTERITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -805,343 +992,380 @@
     {
       "id": "attack-to-mana-bonus",
       "name": "Attack To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+60/80/100/120 % MP of Bonus ATT",
+      "effects": "ALL +60/80/100/120 % MP of Bonus ATT SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "mana"
       ]
     },
     {
       "id": "defense-to-mana-bonus",
       "name": "Defense To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+55/70/85/100 % MP of Bonus DEF",
+      "effects": "ALL +55/70/85/100 % MP of Bonus DEF SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "defense"
+        "defense",
+        "mana"
       ]
     },
     {
       "id": "dexterity-to-mana-bonus",
       "name": "Dexterity To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+60/80/100/120 % MP of Bonus DEX",
+      "effects": "ALL +60/80/100/120 % MP of Bonus DEX SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "dexterity"
+        "dexterity",
+        "mana"
       ]
     },
     {
       "id": "life-to-mana-bonus",
       "name": "Life To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+6%/8%/10%/12% MP of Bonus HP",
+      "effects": "ALL +6%/8%/10%/12% MP of Bonus HP SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "life"
+        "life",
+        "mana"
       ]
     },
     {
       "id": "speed-to-mana-bonus",
       "name": "Speed To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+60/80/100/120 % MP of Bonus SPD",
+      "effects": "ALL +60/80/100/120 % MP of Bonus SPD SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "speed",
         "mana"
       ]
     },
     {
       "id": "vitality-to-mana-bonus",
       "name": "Vitality To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+55/70/85/100 % MP of Bonus VIT",
+      "effects": "ALL +55/70/85/100 % MP of Bonus VIT SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "vitality"
+        "vitality",
+        "mana"
       ]
     },
     {
       "id": "wisdom-to-mana-bonus",
       "name": "Wisdom To Mana Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+55/70/85/100 % MP of Bonus WIS",
+      "effects": "ALL +55/70/85/100 % MP of Bonus WIS SINGLESTAT | MANA | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "SINGLESTAT",
         "MANA",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "wisdom"
+        "wisdom",
+        "mana"
       ]
     },
     {
       "id": "attack-to-life-bonus",
       "name": "Attack To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+60/80/100/120 % HP of Bonus ATT",
+      "effects": "ALL +60/80/100/120 % HP of Bonus ATT SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "life"
       ]
     },
     {
       "id": "defense-to-life-bonus",
       "name": "Defense To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+55/70/85/100 % HP of Bonus DEF",
+      "effects": "ALL +55/70/85/100 % HP of Bonus DEF SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "defense"
+        "defense",
+        "life"
       ]
     },
     {
       "id": "dexterity-to-life-bonus",
       "name": "Dexterity To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+60/80/100/120 % HP of Bonus DEX",
+      "effects": "ALL +60/80/100/120 % HP of Bonus DEX SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "dexterity"
+        "dexterity",
+        "life"
       ]
     },
     {
       "id": "mana-to-life-bonus",
       "name": "Mana To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4%/6%/8%/10% HP of Bonus MP",
+      "effects": "ALL +4%/6%/8%/10% HP of Bonus MP SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "life"
+        "life",
+        "mana"
       ]
     },
     {
       "id": "speed-to-life-bonus",
       "name": "Speed To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+60/80/100/120 % HP of Bonus SPD",
+      "effects": "ALL +60/80/100/120 % HP of Bonus SPD SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "speed",
         "life"
       ]
     },
     {
       "id": "vitality-to-life-bonus",
       "name": "Vitality To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+55/70/85/100 % HP of Bonus VIT",
+      "effects": "ALL +55/70/85/100 % HP of Bonus VIT SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "vitality"
+        "vitality",
+        "life"
       ]
     },
     {
       "id": "wisdom-to-life-bonus",
       "name": "Wisdom To Life Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+55/70/85/100 % HP of Bonus WIS",
+      "effects": "ALL +55/70/85/100 % HP of Bonus WIS SINGLESTAT | LIFE | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "SINGLESTAT",
         "LIFE",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "wisdom"
+        "wisdom",
+        "life"
       ]
     },
     {
       "id": "attack-to-speed-bonus",
       "name": "Attack To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% SPD of Bonus ATT",
+      "effects": "ALL +7%/10%/13%/16% SPD of Bonus ATT SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "ATT",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "speed"
       ]
     },
     {
       "id": "defense-to-speed-bonus",
       "name": "Defense To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% SPD of Bonus DEF",
+      "effects": "ALL +7%/10%/13%/16% SPD of Bonus DEF SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "DEF",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1152,18 +1376,21 @@
     {
       "id": "dexterity-to-speed-bonus",
       "name": "Dexterity To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% SPD of Bonus DEX",
+      "effects": "ALL +7%/10%/13%/16% SPD of Bonus DEX SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "DEX",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1174,62 +1401,69 @@
     {
       "id": "mana-to-speed-bonus",
       "name": "Mana To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.15%/1.5% SPD of Bonus MP",
+      "effects": "ALL +.75%/1%/1.15%/1.5% SPD of Bonus MP SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "speed"
+        "speed",
+        "mana"
       ]
     },
     {
       "id": "life-to-speed-bonus",
       "name": "Life To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.15%/1.5% % SPD of Bonus HP",
+      "effects": "ALL +.75%/1%/1.15%/1.5% % SPD of Bonus HP SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "speed"
+        "speed",
+        "life"
       ]
     },
     {
       "id": "vitality-to-speed-bonus",
       "name": "Vitality To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% SPD of Bonus VIT",
+      "effects": "ALL +7%/10%/13%/16% SPD of Bonus VIT SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "VIT",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1240,18 +1474,21 @@
     {
       "id": "wisdom-to-speed-bonus",
       "name": "Wisdom To Speed Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% SPD of Bonus WIS",
+      "effects": "ALL +7%/10%/13%/16% SPD of Bonus WIS SINGLESTAT | SPEED | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "WIS",
         "SINGLESTAT",
         "SPEED",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1262,39 +1499,46 @@
     {
       "id": "attack-to-vitality-bonus",
       "name": "Attack To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% VIT of Bonus ATT",
+      "effects": "ALL +7%/10%/13%/16% VIT of Bonus ATT SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "ATT",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "vitality"
       ]
     },
     {
       "id": "defense-to-vitality-bonus",
       "name": "Defense To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% VIT of Bonus DEF",
+      "effects": "ALL +7%/10%/13%/16% VIT of Bonus DEF SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "DEF",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1305,18 +1549,21 @@
     {
       "id": "dexterity-to-vitality-bonus",
       "name": "Dexterity To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% VIT of Bonus DEX",
+      "effects": "ALL +7%/10%/13%/16% VIT of Bonus DEX SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "DEX",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1327,83 +1574,94 @@
     {
       "id": "mana-to-vitality-bonus",
       "name": "Mana To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% VIT of Bonus MP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% VIT of Bonus MP SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "vitality"
+        "vitality",
+        "mana"
       ]
     },
     {
       "id": "life-to-vitality-bonus",
       "name": "Life To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% VIT of Bonus HP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% VIT of Bonus HP SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "vitality"
+        "vitality",
+        "life"
       ]
     },
     {
       "id": "speed-to-vitality-bonus",
       "name": "Speed To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% VIT of Bonus SPD",
+      "effects": "ALL +7%/10%/13%/16% VIT of Bonus SPD SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "SPD",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "speed",
         "vitality"
       ]
     },
     {
       "id": "wisdom-to-vitality-bonus",
       "name": "Wisdom To Vitality Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% VIT of Bonus WIS",
+      "effects": "ALL +7%/10%/13%/16% VIT of Bonus WIS SINGLESTAT | VITALITY | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "WIS",
         "SINGLESTAT",
         "VITALITY",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1414,39 +1672,46 @@
     {
       "id": "attack-to-wisdom-bonus",
       "name": "Attack To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% WIS of Bonus ATT",
+      "effects": "ALL +7%/10%/13%/16% WIS of Bonus ATT SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "ATT",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "attack",
         "wisdom"
       ]
     },
     {
       "id": "defense-to-wisdom-bonus",
       "name": "Defense To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+6%/8%/10%/12% WIS of Bonus DEF",
+      "effects": "ALL +6%/8%/10%/12% WIS of Bonus DEF SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "DEF",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1457,18 +1722,21 @@
     {
       "id": "dexterity-to-wisdom-bonus",
       "name": "Dexterity To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% WIS of Bonus DEX",
+      "effects": "ALL +7%/10%/13%/16% WIS of Bonus DEX SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "DEX",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1479,83 +1747,94 @@
     {
       "id": "mana-to-wisdom-bonus",
       "name": "Mana To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% WIS of Bonus MP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% WIS of Bonus MP SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "wisdom"
+        "wisdom",
+        "mana"
       ]
     },
     {
       "id": "life-to-wisdom-bonus",
       "name": "Life To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.75%/1%/1.25%/1.5% WIS of Bonus HP",
+      "effects": "ALL +.75%/1%/1.25%/1.5% WIS of Bonus HP SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "wisdom"
+        "wisdom",
+        "life"
       ]
     },
     {
       "id": "speed-to-wisdom-bonus",
       "name": "Speed To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% WIS of Bonus SPD",
+      "effects": "ALL +7%/10%/13%/16% WIS of Bonus SPD SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "SPD",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
+        "speed",
         "wisdom"
       ]
     },
     {
       "id": "vitality-to-wisdom-bonus",
       "name": "Vitality To Wisdom Bonus",
-      "category": "Single Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7%/10%/13%/16% WIS of Bonus VIT",
+      "effects": "ALL +7%/10%/13%/16% WIS of Bonus VIT SINGLESTAT | WISDOM | CONVERSIONBONUS SINGLESTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "VIT",
         "SINGLESTAT",
         "WISDOM",
         "CONVERSIONBONUS"
       ],
       "incompatibleLabels": [
-        "SINGLESTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1566,19 +1845,22 @@
     {
       "id": "attack-defense-bonus",
       "name": "Attack Defense Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +.7/1.1/1.5/1.9 DEF",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +.7/1.1/1.5/1.9 DEF DUALSTAT | ATTACK | DEFENSE | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "DEF",
         "DUALSTAT",
         "ATTACK",
         "DEFENSE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1589,19 +1871,22 @@
     {
       "id": "attack-dexterity-bonus",
       "name": "Attack Dexterity Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +.7/1.1/1.5/1.9 DEX",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +.7/1.1/1.5/1.9 DEX DUALSTAT | ATTACK | DEXTERITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "DEX",
         "DUALSTAT",
         "ATTACK",
         "DEXTERITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1612,65 +1897,72 @@
     {
       "id": "attack-mana-bonus",
       "name": "Attack Mana Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +10/15/20/25 MP",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +10/15/20/25 MP DUALSTAT | ATTACK | MANA | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "DUALSTAT",
         "ATTACK",
         "MANA",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "attack"
+        "attack",
+        "mana"
       ]
     },
     {
       "id": "attack-life-bonus",
       "name": "Attack Life Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +7.5/10/12.5/15 HP",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +7.5/10/12.5/15 HP DUALSTAT | ATTACK | LIFE | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "DUALSTAT",
         "ATTACK",
         "LIFE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "attack"
+        "attack",
+        "life"
       ]
     },
     {
       "id": "attack-speed-bonus",
       "name": "Attack Speed Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +1.1/1.7/2.3/2.9 SPD",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +1.1/1.7/2.3/2.9 SPD DUALSTAT | ATTACK | SPEED | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "SPD",
         "DUALSTAT",
         "ATTACK",
         "SPEED",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1681,19 +1973,22 @@
     {
       "id": "attack-vitality-bonus",
       "name": "Attack Vitality Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +.9/1.4/1.9/2.4 VIT",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +.9/1.4/1.9/2.4 VIT DUALSTAT | ATTACK | VITALITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "VIT",
         "DUALSTAT",
         "ATTACK",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1704,19 +1999,22 @@
     {
       "id": "attack-wisdom-bonus",
       "name": "Attack Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 ATT +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +.7/1.1/1.5/1.9 ATT | +.9/1.4/1.9/2.4 WIS DUALSTAT | ATTACK | WISDOM | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "WIS",
         "DUALSTAT",
         "ATTACK",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1727,88 +2025,98 @@
     {
       "id": "defense-dexterity-bonus",
       "name": "Defense Dexterity Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEF +.7/1.1/1.5/1.9 DEX",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEF | +.7/1.1/1.5/1.9 DEX DUALSTAT | DEFENSE | DEXTERITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "DEX",
         "DUALSTAT",
         "DEFENSE",
         "DEXTERITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "dexterity",
-        "defense"
+        "defense",
+        "dexterity"
       ]
     },
     {
       "id": "defense-mana-bonus",
       "name": "Defense Mana Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEF +10/15/20/25 MP",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEF | +10/15/20/25 MP DUALSTAT | DEFENSE | MANA | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "DUALSTAT",
         "DEFENSE",
         "MANA",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "defense"
+        "defense",
+        "mana"
       ]
     },
     {
       "id": "defense-life-bonus",
       "name": "Defense Life Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEF +7.5/10/12.5/15 HP",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEF | +7.5/10/12.5/15 HP DUALSTAT | DEFENSE | LIFE | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "DUALSTAT",
         "DEFENSE",
         "LIFE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "defense"
+        "defense",
+        "life"
       ]
     },
     {
       "id": "defense-speed-bonus",
       "name": "Defense Speed Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEF +1.1/1.7/2.3/2.9 SPD",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEF | +1.1/1.7/2.3/2.9 SPD DUALSTAT | DEFENSE | SPEED | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "SPD",
         "DUALSTAT",
         "DEFENSE",
         "SPEED",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1819,19 +2127,22 @@
     {
       "id": "defense-vitality-bonus",
       "name": "Defense Vitality Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEF +.9/1.4/1.9/2.4 VIT",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEF | +.9/1.4/1.9/2.4 VIT DUALSTAT | DEFENSE | VITALITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "VIT",
         "DUALSTAT",
         "DEFENSE",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1842,19 +2153,22 @@
     {
       "id": "defense-wisdom-bonus",
       "name": "Defense Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEF +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEF | +.9/1.4/1.9/2.4 WIS DUALSTAT | DEFENSE | WISDOM | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "WIS",
         "DUALSTAT",
         "DEFENSE",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1865,65 +2179,72 @@
     {
       "id": "dexterity-mana-bonus",
       "name": "Dexterity Mana Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEX +10/15/20/25 MP",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEX | +10/15/20/25 MP DUALSTAT | DEXTERITY | MANA | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "DUALSTAT",
         "DEXTERITY",
         "MANA",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "dexterity"
+        "dexterity",
+        "mana"
       ]
     },
     {
       "id": "dexterity-life-bonus",
       "name": "Dexterity Life Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEX +7.5/10/12.5/15 HP",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEX | +7.5/10/12.5/15 HP DUALSTAT | DEXTERITY | LIFE | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "DUALSTAT",
         "DEXTERITY",
         "LIFE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "dexterity"
+        "dexterity",
+        "life"
       ]
     },
     {
       "id": "dexterity-speed-bonus",
       "name": "Dexterity Speed Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEX +1.1/1.7/2.3/2.9 SPD",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEX | +1.1/1.7/2.3/2.9 SPD DUALSTAT | DEXTERITY | SPEED | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "SPD",
         "DUALSTAT",
         "DEXTERITY",
         "SPEED",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1934,19 +2255,22 @@
     {
       "id": "dexterity-vitality-bonus",
       "name": "Dexterity Vitality Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEX +.9/1.4/1.9/2.4 VIT",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEX | +.9/1.4/1.9/2.4 VIT DUALSTAT | DEXTERITY | VITALITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "VIT",
         "DUALSTAT",
         "DEXTERITY",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1957,19 +2281,22 @@
     {
       "id": "dexterity-wisdom-bonus",
       "name": "Dexterity Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.7/1.1/1.5/1.9 DEX +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +.7/1.1/1.5/1.9 DEX | +.9/1.4/1.9/2.4 WIS DUALSTAT | DEXTERITY | WISDOM | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "WIS",
         "DUALSTAT",
         "DEXTERITY",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -1980,180 +2307,196 @@
     {
       "id": "mana-life-bonus",
       "name": "Mana Life Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+10/15/20/25 MP +7.5/10/12.5/15 HP",
+      "effects": "ALL +10/15/20/25 MP | +7.5/10/12.5/15 HP DUALSTAT | MANA | LIFE | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
         "DUALSTAT",
         "MANA",
         "LIFE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "life"
+        "life",
+        "mana"
       ]
     },
     {
       "id": "mana-speed-bonus",
       "name": "Mana Speed Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+10/15/20/25 MP +1.1/1.7/2.3/2.9 SPD",
+      "effects": "ALL +10/15/20/25 MP | +1.1/1.7/2.3/2.9 SPD DUALSTAT | MANA | SPEED | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "DUALSTAT",
         "MANA",
         "SPEED",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "speed"
+        "speed",
+        "mana"
       ]
     },
     {
       "id": "mana-vitality-bonus",
       "name": "Mana Vitality Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+10/15/20/25 MP +.9/1.4/1.9/2.4 VIT",
+      "effects": "ALL +10/15/20/25 MP | +.9/1.4/1.9/2.4 VIT DUALSTAT | MANA | VITALITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "DUALSTAT",
         "MANA",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "vitality"
+        "vitality",
+        "mana"
       ]
     },
     {
       "id": "mana-wisdom-bonus",
       "name": "Mana Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+10/15/20/25 MP +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +10/15/20/25 MP | +.9/1.4/1.9/2.4 WIS DUALSTAT | MANA | WISDOM | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "DUALSTAT",
         "MANA",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
-        "wisdom"
+        "wisdom",
+        "mana"
       ]
     },
     {
       "id": "life-speed-bonus",
       "name": "Life Speed Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7.5/10/12.5/15 HP +1.1/1.7/2.3/2.9 SPD",
+      "effects": "ALL +7.5/10/12.5/15 HP | +1.1/1.7/2.3/2.9 SPD DUALSTAT | LIFE | SPEED | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "DUALSTAT",
         "LIFE",
         "SPEED",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "speed"
+        "speed",
+        "life"
       ]
     },
     {
       "id": "life-vitality-bonus",
       "name": "Life Vitality Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7.5/10/12.5/15 HP +.9/1.4/1.9/2.4 VIT",
+      "effects": "ALL +7.5/10/12.5/15 HP | +.9/1.4/1.9/2.4 VIT DUALSTAT | LIFE | VITALITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "DUALSTAT",
         "LIFE",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "vitality"
+        "vitality",
+        "life"
       ]
     },
     {
       "id": "life-wisdom-bonus",
       "name": "Life Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+7.5/10/12.5/15 HP +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +7.5/10/12.5/15 HP | +.9/1.4/1.9/2.4 WIS DUALSTAT | LIFE | WISDOM | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "DUALSTAT",
         "LIFE",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
-        "wisdom"
+        "wisdom",
+        "life"
       ]
     },
     {
       "id": "speed-vitality-bonus",
       "name": "Speed Vitality Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.1/1.7/2.3/2.9 SPD +.9/1.4/1.9/2.4 VIT",
+      "effects": "ALL +1.1/1.7/2.3/2.9 SPD | +.9/1.4/1.9/2.4 VIT DUALSTAT | SPEED | VITALITY | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "VIT",
         "DUALSTAT",
         "SPEED",
         "VITALITY",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2164,19 +2507,22 @@
     {
       "id": "speed-wisdom-bonus",
       "name": "Speed Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1.1/1.7/2.3/2.9 SPD +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +1.1/1.7/2.3/2.9 SPD | +.9/1.4/1.9/2.4 WIS DUALSTAT | SPEED | DEFENSE | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "WIS",
         "DUALSTAT",
         "SPEED",
         "DEFENSE",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2188,19 +2534,22 @@
     {
       "id": "vitality-wisdom-bonus",
       "name": "Vitality Wisdom Bonus",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+.9/1.4/1.9/2.4 VIT +.9/1.4/1.9/2.4 WIS",
+      "effects": "ALL +.9/1.4/1.9/2.4 VIT | +.9/1.4/1.9/2.4 WIS DUALSTAT | VITALITY | WISDOM | FLATBONUS DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "WIS",
         "DUALSTAT",
         "VITALITY",
         "WISDOM",
         "FLATBONUS"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2211,19 +2560,22 @@
     {
       "id": "attack-defense-tradeoff",
       "name": "Attack Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +2/3/4/5 ATT | -1.4/2.2/3/3.8 DEF DUALSTAT | ATTACK | DEFENSE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "DEF",
         "DUALSTAT",
         "ATTACK",
         "DEFENSE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2235,19 +2587,22 @@
     {
       "id": "attack-dexterity-tradeoff",
       "name": "Attack Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +2/3/4/5 ATT | -1.4/2.2/3/3.8 DEX DUALSTAT | ATTACK | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "DEX",
         "DUALSTAT",
         "ATTACK",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2259,67 +2614,74 @@
     {
       "id": "attack-mana-tradeoff",
       "name": "Attack Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -20/30/40/50 MP",
+      "effects": "ALL +2/3/4/5 ATT | -20/30/40/50 MP DUALSTAT | ATTACK | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "DUALSTAT",
         "ATTACK",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "attack",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "attack-life-tradeoff",
       "name": "Attack Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -15/20/25/30 HP",
+      "effects": "ALL +2/3/4/5 ATT | -15/20/25/30 HP DUALSTAT | ATTACK | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "DUALSTAT",
         "ATTACK",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "attack",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "attack-speed-tradeoff",
       "name": "Attack Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +2/3/4/5 ATT | -2.2/3.4/4.6/5.8 SPD DUALSTAT | ATTACK | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "SPD",
         "DUALSTAT",
         "ATTACK",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2331,19 +2693,22 @@
     {
       "id": "attack-vitality-tradeoff",
       "name": "Attack Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +2/3/4/5 ATT | -1.8/2.8/3.8/4.8 VIT DUALSTAT | ATTACK | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "VIT",
         "DUALSTAT",
         "ATTACK",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2355,19 +2720,22 @@
     {
       "id": "attack-wisdom-tradeoff",
       "name": "Attack Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 ATT -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +2/3/4/5 ATT | -1.8/2.8/3.8/4.8 WIS DUALSTAT | ATTACK | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
+        "WIS",
         "DUALSTAT",
         "ATTACK",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2379,19 +2747,22 @@
     {
       "id": "defense-attack-tradeoff",
       "name": "Defense Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +2/3/4/5 DEF | -1.4/2.2/3/3.8 ATT DUALSTAT | DEFENSE | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "ATT",
         "DUALSTAT",
         "DEFENSE",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2403,91 +2774,101 @@
     {
       "id": "defense-dexterity-tradeoff",
       "name": "Defense Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +2/3/4/5 DEF | -1.4/2.2/3/3.8 DEX DUALSTAT | DEFENSE | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "DEX",
         "DUALSTAT",
         "DEFENSE",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "dexterity",
         "defense",
+        "dexterity",
         "tradeoff"
       ]
     },
     {
       "id": "defense-mana-tradeoff",
       "name": "Defense Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -20/30/40/50 MP",
+      "effects": "ALL +2/3/4/5 DEF | -20/30/40/50 MP DUALSTAT | DEFENSE | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "DUALSTAT",
         "DEFENSE",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "defense",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "defense-life-tradeoff",
       "name": "Defense Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -15/20/25/30 HP",
+      "effects": "ALL +2/3/4/5 DEF | -15/20/25/30 HP DUALSTAT | DEFENSE | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "DUALSTAT",
         "DEFENSE",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "defense",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "defense-speed-tradeoff",
       "name": "Defense Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +2/3/4/5 DEF | -2.2/3.4/4.6/5.8 SPD DUALSTAT | DEFENSE | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "SPD",
         "DUALSTAT",
         "DEFENSE",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2499,19 +2880,22 @@
     {
       "id": "defense-vitality-tradeoff",
       "name": "Defense Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +2/3/4/5 DEF | -1.8/2.8/3.8/4.8 VIT DUALSTAT | DEFENSE | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "VIT",
         "DUALSTAT",
         "DEFENSE",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2523,19 +2907,22 @@
     {
       "id": "defense-wisdom-tradeoff",
       "name": "Defense Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEF -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +2/3/4/5 DEF | -1.8/2.8/3.8/4.8 WIS DUALSTAT | DEFENSE | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
+        "WIS",
         "DUALSTAT",
         "DEFENSE",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2547,19 +2934,22 @@
     {
       "id": "dexterity-attack-tradeoff",
       "name": "Dexterity Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +2/3/4/5 DEX | -1.4/2.2/3/3.8 ATT DUALSTAT | DEXTERITY | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "ATT",
         "DUALSTAT",
         "DEXTERITY",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2571,90 +2961,100 @@
     {
       "id": "dexterity-defense-tradeoff",
       "name": "Dexterity Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +2/3/4/5 DEX | -1.4/2.2/3/3.8 DEF DUALSTAT | DEXTERITY | | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "DEF",
         "DUALSTAT",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "dexterity",
         "defense",
+        "dexterity",
         "tradeoff"
       ]
     },
     {
       "id": "dexterity-mana-tradeoff",
       "name": "Dexterity Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -20/30/40/50 MP",
+      "effects": "ALL +2/3/4/5 DEX | -20/30/40/50 MP DUALSTAT | DEXTERITY | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "DUALSTAT",
         "DEXTERITY",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "dexterity",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "dexterity-life-tradeoff",
       "name": "Dexterity Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -15/20/25/30 HP",
+      "effects": "ALL +2/3/4/5 DEX | -15/20/25/30 HP DUALSTAT | DEXTERITY | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "DUALSTAT",
         "DEXTERITY",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "dexterity",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "dexterity-speed-tradeoff",
       "name": "Dexterity Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +2/3/4/5 DEX | -2.2/3.4/4.6/5.8 SPD DUALSTAT | DEXTERITY | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "SPD",
         "DUALSTAT",
         "DEXTERITY",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2666,19 +3066,22 @@
     {
       "id": "dexterity-vitality-tradeoff",
       "name": "Dexterity Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +2/3/4/5 DEX | -1.8/2.8/3.8/4.8 VIT DUALSTAT | DEXTERITY | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "VIT",
         "DUALSTAT",
         "DEXTERITY",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2690,19 +3093,22 @@
     {
       "id": "dexterity-wisdom-tradeoff",
       "name": "Dexterity Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2/3/4/5 DEX -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +2/3/4/5 DEX | -1.8/2.8/3.8/4.8 WIS DUALSTAT | DEXTERITY | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
+        "WIS",
         "DUALSTAT",
         "DEXTERITY",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -2714,354 +3120,383 @@
     {
       "id": "mana-attack-tradeoff",
       "name": "Mana Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +30/40/55/65 MP | -1.4/2.2/3/3.8 ATT DUALSTAT | MANA | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "DUALSTAT",
         "MANA",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "attack",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "mana-defense-tradeoff",
       "name": "Mana Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +30/40/55/65 MP | -1.4/2.2/3/3.8 DEF DUALSTAT | MANA | | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "DUALSTAT",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "defense",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "mana-dexterity-tradeoff",
       "name": "Mana Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +30/40/55/65 MP | -1.4/2.2/3/3.8 DEX DUALSTAT | MANA | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "DUALSTAT",
         "MANA",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "dexterity",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "mana-life-tradeoff",
       "name": "Mana Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -15/20/25/30 HP",
+      "effects": "ALL +30/40/55/65 MP | -15/20/25/30 HP DUALSTAT | MANA | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
         "DUALSTAT",
         "MANA",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "life",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "mana-speed-tradeoff",
       "name": "Mana Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +30/40/55/65 MP | -2.2/3.4/4.6/5.8 SPD DUALSTAT | MANA | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "DUALSTAT",
         "MANA",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "speed",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "mana-vitality-tradeoff",
       "name": "Mana Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +30/40/55/65 MP | -1.8/2.8/3.8/4.8 VIT DUALSTAT | MANA | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "DUALSTAT",
         "MANA",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "vitality",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "mana-wisdom-tradeoff",
       "name": "Mana Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+30/40/55/65 MP -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +30/40/55/65 MP | -1.8/2.8/3.8/4.8 WIS DUALSTAT | MANA | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "DUALSTAT",
         "MANA",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "wisdom",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "life-attack-tradeoff",
       "name": "Life Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +20/25/35/40 HP | -1.4/2.2/3/3.8 ATT DUALSTAT | LIFE | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "ATT",
         "DUALSTAT",
         "LIFE",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "attack",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "life-defense-tradeoff",
       "name": "Life Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +20/25/35/40 HP | -1.4/2.2/3/3.8 DEF DUALSTAT | LIFE | DEFENSE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEF",
         "DUALSTAT",
         "LIFE",
         "DEFENSE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "defense",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "life-dexterity-tradeoff",
       "name": "Life Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +20/25/35/40 HP | -1.4/2.2/3/3.8 DEX DUALSTAT | LIFE | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "DEX",
         "DUALSTAT",
         "LIFE",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "dexterity",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "life-mana-tradeoff",
       "name": "Life Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -20/30/40/50 MP",
+      "effects": "ALL +20/25/35/40 HP | -20/30/40/50 MP DUALSTAT | LIFE | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
         "DUALSTAT",
         "LIFE",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "life",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "life-speed-tradeoff",
       "name": "Life Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +20/25/35/40 HP | -2.2/3.4/4.6/5.8 SPD DUALSTAT | LIFE | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "DUALSTAT",
         "LIFE",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "speed",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "life-vitality-tradeoff",
       "name": "Life Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +20/25/35/40 HP | -1.8/2.8/3.8/4.8 VIT DUALSTAT | LIFE | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "DUALSTAT",
         "LIFE",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "vitality",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "life-wisdom-tradeoff",
       "name": "Life Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+20/25/35/40 HP -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +20/25/35/40 HP | -1.8/2.8/3.8/4.8 WIS DUALSTAT | LIFE | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "DUALSTAT",
         "LIFE",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "wisdom",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "speed-attack-tradeoff",
       "name": "Speed Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +4/5/7/8 SPD | -1.4/2.2/3/3.8 ATT DUALSTAT | SPEED | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "ATT",
         "DUALSTAT",
         "SPEED",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3073,18 +3508,21 @@
     {
       "id": "speed-defense-tradeoff",
       "name": "Speed Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +4/5/7/8 SPD | -1.4/2.2/3/3.8 DEF DUALSTAT | SPEED | | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "DEF",
         "DUALSTAT",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3096,19 +3534,22 @@
     {
       "id": "speed-dexterity-tradeoff",
       "name": "Speed Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +4/5/7/8 SPD | -1.4/2.2/3/3.8 DEX DUALSTAT | SPEED | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "DEX",
         "DUALSTAT",
         "SPEED",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3120,67 +3561,74 @@
     {
       "id": "speed-mana-tradeoff",
       "name": "Speed Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -20/30/40/50 MP",
+      "effects": "ALL +4/5/7/8 SPD | -20/30/40/50 MP DUALSTAT | SPEED | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "DUALSTAT",
         "SPEED",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "speed",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "speed-life-tradeoff",
       "name": "Speed Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -15/20/25/30 HP",
+      "effects": "ALL +4/5/7/8 SPD | -15/20/25/30 HP DUALSTAT | SPEED | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
         "DUALSTAT",
         "SPEED",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "speed",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "speed-vitality-tradeoff",
       "name": "Speed Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +4/5/7/8 SPD | -1.8/2.8/3.8/4.8 VIT DUALSTAT | SPEED | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "VIT",
         "DUALSTAT",
         "SPEED",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3192,19 +3640,22 @@
     {
       "id": "speed-wisdom-tradeoff",
       "name": "Speed Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+4/5/7/8 SPD -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +4/5/7/8 SPD | -1.8/2.8/3.8/4.8 WIS DUALSTAT | SPEED | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "SPD",
+        "WIS",
         "DUALSTAT",
         "SPEED",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3216,19 +3667,22 @@
     {
       "id": "vitality-attack-tradeoff",
       "name": "Vitality Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -1.4/2.2/3/3.8 ATT DUALSTAT | VITALITY | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "ATT",
         "DUALSTAT",
         "VITALITY",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3240,18 +3694,21 @@
     {
       "id": "vitality-defense-tradeoff",
       "name": "Vitality Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -1.4/2.2/3/3.8 DEF DUALSTAT | VITALITY | | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "DEF",
         "DUALSTAT",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3263,19 +3720,22 @@
     {
       "id": "vitality-dexterity-tradeoff",
       "name": "Vitality Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -1.4/2.2/3/3.8 DEX DUALSTAT | VITALITY | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "DEX",
         "DUALSTAT",
         "VITALITY",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3287,67 +3747,74 @@
     {
       "id": "vitality-mana-tradeoff",
       "name": "Vitality Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -20/30/40/50 MP",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -20/30/40/50 MP DUALSTAT | VITALITY | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "DUALSTAT",
         "VITALITY",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "vitality",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "vitality-life-tradeoff",
       "name": "Vitality Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -15/20/25/30 HP",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -15/20/25/30 HP DUALSTAT | VITALITY | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
         "DUALSTAT",
         "VITALITY",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "vitality",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "vitality-speed-tradeoff",
       "name": "Vitality Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -2.2/3.4/4.6/5.8 SPD DUALSTAT | VITALITY | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "SPD",
         "DUALSTAT",
         "VITALITY",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3359,19 +3826,22 @@
     {
       "id": "vitality-wisdom-tradeoff",
       "name": "Vitality Wisdom Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 VIT -1.8/2.8/3.8/4.8 WIS",
+      "effects": "ALL +3.6/4.6/5.6/6.6 VIT | -1.8/2.8/3.8/4.8 WIS DUALSTAT | VITALITY | WISDOM | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "VIT",
+        "WIS",
         "DUALSTAT",
         "VITALITY",
         "WISDOM",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3383,19 +3853,22 @@
     {
       "id": "wisdom-attack-tradeoff",
       "name": "Wisdom Attack Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -1.4/2.2/3/3.8 ATT",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -1.4/2.2/3/3.8 ATT DUALSTAT | WISDOM | ATTACK | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "ATT",
         "DUALSTAT",
         "WISDOM",
         "ATTACK",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3407,19 +3880,22 @@
     {
       "id": "wisdom-defense-tradeoff",
       "name": "Wisdom Defense Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -1.4/2.2/3/3.8 DEF",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -1.4/2.2/3/3.8 DEF DUALSTAT | WISDOM | DEFENSE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "DEF",
         "DUALSTAT",
         "WISDOM",
         "DEFENSE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3431,19 +3907,22 @@
     {
       "id": "wisdom-dexterity-tradeoff",
       "name": "Wisdom Dexterity Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -1.4/2.2/3/3.8 DEX",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -1.4/2.2/3/3.8 DEX DUALSTAT | WISDOM | DEXTERITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "DEX",
         "DUALSTAT",
         "WISDOM",
         "DEXTERITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3455,67 +3934,74 @@
     {
       "id": "wisdom-mana-tradeoff",
       "name": "Wisdom Mana Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -20/30/40/50 MP",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -20/30/40/50 MP DUALSTAT | WISDOM | MANA | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "DUALSTAT",
         "WISDOM",
         "MANA",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "mana",
         "wisdom",
+        "mana",
         "tradeoff"
       ]
     },
     {
       "id": "wisdom-life-tradeoff",
       "name": "Wisdom Life Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -15/20/25/30 HP",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -15/20/25/30 HP DUALSTAT | WISDOM | LIFE | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
         "DUALSTAT",
         "WISDOM",
         "LIFE",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
-        "life",
         "wisdom",
+        "life",
         "tradeoff"
       ]
     },
     {
       "id": "wisdom-speed-tradeoff",
       "name": "Wisdom Speed Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -2.2/3.4/4.6/5.8 SPD",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -2.2/3.4/4.6/5.8 SPD DUALSTAT | WISDOM | SPEED | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "SPD",
         "DUALSTAT",
         "WISDOM",
         "SPEED",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3527,19 +4013,22 @@
     {
       "id": "wisdom-vitality-tradeoff",
       "name": "Wisdom Vitality Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+3.6/4.6/5.6/6.6 WIS -1.8/2.8/3.8/4.8 VIT",
+      "effects": "ALL +3.6/4.6/5.6/6.6 WIS | -1.8/2.8/3.8/4.8 VIT DUALSTAT | WISDOM | VITALITY | TRADEOFF DUALSTAT",
       "labels": [
+        "ALL",
+        "WIS",
+        "VIT",
         "DUALSTAT",
         "WISDOM",
         "VITALITY",
         "TRADEOFF"
       ],
       "incompatibleLabels": [
-        "DUALSTAT"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3551,17 +4040,18 @@
     {
       "id": "loot-bonus",
       "name": "Loot Bonus",
-      "category": "Reward Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+1%/1.5%/2%/2.5% Loot Drop Rate",
+      "effects": "ALL +1%/1.5%/2%/2.5% Loot Drop Rate REWARDBONUS | LOOT REWARDBONUS",
       "labels": [
+        "ALL",
         "REWARDBONUS",
         "LOOT"
       ],
       "incompatibleLabels": [
-        "REWARDBONUS"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3571,17 +4061,17 @@
     {
       "id": "xp-bonus",
       "name": "XP Bonus",
-      "category": "Reward Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2%/3%/4%/5% XP Gain",
+      "effects": "ALL +2%/3%/4%/5% XP Gain REWARDBONUS | XP REWARDBONUS",
       "labels": [
-        "REWARDBONUS",
-        "XP"
+        "ALL",
+        "REWARDBONUS"
       ],
       "incompatibleLabels": [
-        "REWARDBONUS"
+        "ALL"
       ],
       "icon": "",
       "groups": [
@@ -3591,2602 +4081,22 @@
     {
       "id": "dust-bonus",
       "name": "Dust Bonus",
-      "category": "Reward Enchantments",
+      "category": "Basic Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "+2%/3%/4%/5% Dust Drop Rate",
+      "effects": "ALL +2%/3%/4%/5% Dust Drop Rate REWARDBONUS | DUST REWARDBONUS",
       "labels": [
+        "ALL",
         "REWARDBONUS",
         "DUST"
       ],
       "incompatibleLabels": [
-        "REWARDBONUS"
+        "ALL"
       ],
       "icon": "",
       "groups": [
         "reward"
-      ]
-    },
-    {
-      "id": "damage-bonus",
-      "name": "Damage Bonus",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+2%/3%/4%/5% Weapon Damage",
-      "labels": [
-        "DAMAGE",
-        "WEAPONDAMAGE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/qm3jWzf.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate"
-      ]
-    },
-    {
-      "id": "firerate-bonus",
-      "name": "FireRate Bonus",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+2%/3%/4%/5% Fire Rate",
-      "labels": [
-        "DAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/qm3jWzf.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate"
-      ]
-    },
-    {
-      "id": "damage-tradeoff",
-      "name": "Damage Tradeoff",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+5%/7.5%/10%/12.5% Weapon Damage -2%/3%/4%/5% Fire Rate",
-      "labels": [
-        "DAMAGE",
-        "WEAPONDAMAGE",
-        "TRADEOFF"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/qm3jWzf.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "tradeoff"
-      ]
-    },
-    {
-      "id": "firerate-tradeoff",
-      "name": "FireRate Tradeoff",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+5%/7.5%/10%/12.5% Fire Rate -2%/3%/4%/5% Weapon Damage",
-      "labels": [
-        "DAMAGE",
-        "WEAPONFIRERATE",
-        "TRADEOFF"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/qm3jWzf.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "tradeoff"
-      ]
-    },
-    {
-      "id": "projectile-lifetime-bonus",
-      "name": "Projectile Lifetime Bonus",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+4%/6%/8%/10% Projectile Lifetime",
-      "labels": [
-        "WEAPONRANGE",
-        "LIFETIME"
-      ],
-      "incompatibleLabels": [
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/467Rd3y.png",
-      "groups": [
-        "life",
-        "range"
-      ]
-    },
-    {
-      "id": "projectile-speed-bonus",
-      "name": "Projectile Speed Bonus",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+4%/6%/8%/10% Projectile Speed",
-      "labels": [
-        "WEAPONRANGE",
-        "PROJSPEED"
-      ],
-      "incompatibleLabels": [
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/467Rd3y.png",
-      "groups": [
-        "range"
-      ]
-    },
-    {
-      "id": "onshoot-attack-boost",
-      "name": "OnShoot Attack Boost",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot to gain +5/6/7/8 ATT for 6 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONSHOOT",
-        "ONSHOOTSTAT",
-        "PROC",
-        "STATBOOST",
-        "ATTACK",
-        "PROCATTACK"
-      ],
-      "incompatibleLabels": [
-        "ONSHOOTSTAT",
-        "PROCATTACK"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "attack",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onshoot-defense-boost",
-      "name": "OnShoot Defense Boost",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot to gain +7/8/9/10 DEF for 6 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONSHOOT",
-        "ONSHOOTSTAT",
-        "PROC",
-        "STATBOOST",
-        "DEFENSE",
-        "PROCDEFENSE"
-      ],
-      "incompatibleLabels": [
-        "ONSHOOTSTAT",
-        "PROCDEFENSE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "defense",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onshoot-dexterity-boost",
-      "name": "OnShoot Dexterity Boost",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot to gain +5/6/7/8 DEX for 6 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONSHOOT",
-        "ONSHOOTSTAT",
-        "PROC",
-        "STATBOOST",
-        "DEXTERITY",
-        "PROCDEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "ONSHOOTSTAT",
-        "PROCDEXTERITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "dexterity",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onshoot-vitality-boost",
-      "name": "OnShoot Vitality Boost",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot to gain +7/8/9/10 VIT for 6 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONSHOOT",
-        "ONSHOOTSTAT",
-        "PROC",
-        "STATBOOST",
-        "VITALITY",
-        "PROCVITALITY"
-      ],
-      "incompatibleLabels": [
-        "ONSHOOTSTAT",
-        "PROCVITALITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "vitality",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onshoot-wisdom-boost",
-      "name": "OnShoot Wisdom Boost",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot to gain +7/8/9/10 WIS for 6 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONSHOOT",
-        "ONSHOOTSTAT",
-        "PROC",
-        "STATBOOST",
-        "WISDOM",
-        "PROCWISDOM"
-      ],
-      "incompatibleLabels": [
-        "ONSHOOTSTAT",
-        "PROCWISDOM"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "wisdom",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onshoot-heal",
-      "name": "OnShoot Heal",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot while below 90% HP to heal 20/30/40/50 HP, 15 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONSHOOT",
-        "PROC",
-        "HEAL"
-      ],
-      "incompatibleLabels": [
-        "HEAL"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "life",
-        "recovery",
-        "proc"
-      ]
-    },
-    {
-      "id": "onshoot-magic",
-      "name": "OnShoot Magic",
-      "category": "Weapon Enchantments",
-      "eligible": [
-        "WEAPON",
-        "RING"
-      ],
-      "effects": "3% chance on Shoot while below 80% MP to restore 20/30/40/50 MP, 15 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONSHOOT",
-        "PROC",
-        "MAGIC"
-      ],
-      "incompatibleLabels": [
-        "MAGIC"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "mana",
-        "recovery",
-        "proc"
-      ]
-    },
-    {
-      "id": "mp-cost-reduction",
-      "name": "MP Cost Reduction",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY"
-      ],
-      "effects": "4%/6%/8%/10% Reduced MP Cost",
-      "labels": [
-        "CASTING",
-        "MPCOSTREDUCTION"
-      ],
-      "incompatibleLabels": [
-        "MPCOSTREDUCTION",
-        "STATMODMULT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/OzvjBWH.png",
-      "groups": [
-        "mana",
-        "ability"
-      ]
-    },
-    {
-      "id": "stat-mod-multiplier",
-      "name": "Stat Mod Multiplier",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY"
-      ],
-      "effects": "Increases Stat Mod value for this ability by +6%/9%/12%/15%",
-      "labels": [
-        "CASTING",
-        "STATMODMULT"
-      ],
-      "incompatibleLabels": [
-        "MPCOSTREDUCTION",
-        "STATMODMULT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/OzvjBWH.png",
-      "groups": [
-        "mana",
-        "ability"
-      ]
-    },
-    {
-      "id": "flat-mana-regeneration",
-      "name": "Flat Mana Regeneration",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "Increases Mana regen by 2/3/4/5 per second, Doubled while out of combat",
-      "labels": [
-        "RECOVERY",
-        "MANAREGEN",
-        "FLATREGEN"
-      ],
-      "incompatibleLabels": [
-        "MANAREGEN"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/tj3pPHL.png",
-      "groups": [
-        "mana",
-        "recovery"
-      ]
-    },
-    {
-      "id": "percentage-mana-regeneration",
-      "name": "Percentage Mana Regeneration",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "Increases Mana regen by .75%/1%/1.25%/1.5% of your maximum MP per second, Doubled while out of combat",
-      "labels": [
-        "RECOVERY",
-        "MANAREGEN",
-        "PERCENTAGEREGEN"
-      ],
-      "incompatibleLabels": [
-        "MANAREGEN"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/tj3pPHL.png",
-      "groups": [
-        "mana",
-        "recovery"
-      ]
-    },
-    {
-      "id": "onability-attack-boost",
-      "name": "OnAbility Attack Boost",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, gain +5/6/7/8 ATT for 8 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONABILITY",
-        "ONABILITYSTAT",
-        "PROC",
-        "STATBOOST",
-        "ATTACK",
-        "PROCATTACK"
-      ],
-      "incompatibleLabels": [
-        "ONABILITYSTAT",
-        "PROCATTACK"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "attack",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onability-defense-boost",
-      "name": "OnAbility Defense Boost",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, gain +7/8/9/10 DEF for 8 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONABILITY",
-        "ONABILITYSTAT",
-        "PROC",
-        "STATBOOST",
-        "DEFENSE",
-        "PROCDEFENSE"
-      ],
-      "incompatibleLabels": [
-        "ONABILITYSTAT",
-        "PROCDEFENSE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "defense",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onability-dexterity-boost",
-      "name": "OnAbility Dexterity Boost",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, gain +5/6/7/8 DEX for 8 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONABILITY",
-        "ONABILITYSTAT",
-        "PROC",
-        "STATBOOST",
-        "DEXTERITY",
-        "PROCDEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "ONABILITYSTAT",
-        "PROCDEXTERITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "dexterity",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onability-vitality-boost",
-      "name": "OnAbility Vitality Boost",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, gain +7/8/9/10 VIT for 8 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONABILITY",
-        "ONABILITYSTAT",
-        "PROC",
-        "STATBOOST",
-        "VITALITY",
-        "PROCVITALITY"
-      ],
-      "incompatibleLabels": [
-        "ONABILITYSTAT",
-        "PROCVITALITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "vitality",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onability-wisdom-boost",
-      "name": "OnAbility Wisdom Boost",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, gain +7/8/9/10 WIS for 8 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONABILITY",
-        "ONABILITYSTAT",
-        "PROC",
-        "STATBOOST",
-        "WISDOM",
-        "PROCWISDOM"
-      ],
-      "incompatibleLabels": [
-        "ONABILITYSTAT",
-        "PROCWISDOM"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "wisdom",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onability-heal",
-      "name": "OnAbility Heal",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, while below 90% HP to heal 20/30/40/50 HP, 15 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONABILITY",
-        "PROC",
-        "HEAL"
-      ],
-      "incompatibleLabels": [
-        "HEAL"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "life",
-        "recovery",
-        "proc"
-      ]
-    },
-    {
-      "id": "onability-magic",
-      "name": "OnAbility Magic",
-      "category": "Ability Enchantments",
-      "eligible": [
-        "ABILITY",
-        "RING"
-      ],
-      "effects": "30% chance on Ability Use, while below 80% MP to restore 20/30/40/50 MP, 15 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONABILITY",
-        "PROC",
-        "MAGIC"
-      ],
-      "incompatibleLabels": [
-        "MAGIC"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "mana",
-        "recovery",
-        "proc"
-      ]
-    },
-    {
-      "id": "flat-life-regeneration",
-      "name": "Flat Life Regeneration",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "Increases Life regen by 4/6/8/10 per second, Doubled while out of combat",
-      "labels": [
-        "RECOVERY",
-        "LIFEREGEN",
-        "FLATREGEN"
-      ],
-      "incompatibleLabels": [
-        "LIFEREGEN"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/cvKGZ1T.png",
-      "groups": [
-        "life",
-        "recovery"
-      ]
-    },
-    {
-      "id": "percentage-life-regeneration",
-      "name": "Percentage Life Regeneration",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "Increases Life regen by .5%/.75%/1%/1.25% of your maximum HP per second, Doubled while out of combat",
-      "labels": [
-        "RECOVERY",
-        "LIFEREGEN",
-        "PERCENTAGEREGEN"
-      ],
-      "incompatibleLabels": [
-        "LIFEREGEN"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/cvKGZ1T.png",
-      "groups": [
-        "life",
-        "recovery"
-      ]
-    },
-    {
-      "id": "damage-resistance",
-      "name": "Damage Resistance",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR"
-      ],
-      "effects": "Reduces incoming damage by 2%/3%/4%/5%",
-      "labels": [
-        "DURABILITY",
-        "DAMAGERESISTANCE"
-      ],
-      "incompatibleLabels": [
-        "DAMAGERESISTANCE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/D5u1e00.png",
-      "groups": [
-        "defense"
-      ]
-    },
-    {
-      "id": "onhit-attack-boost",
-      "name": "OnHit Attack Boost",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage, gain +5/6/7/8 ATT for 12 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "ONHITSTAT",
-        "PROC",
-        "STATBOOST",
-        "ATTACK",
-        "PROCATTACK"
-      ],
-      "incompatibleLabels": [
-        "ONHITSTAT",
-        "PROCATTACK"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "attack",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-defense-boost",
-      "name": "OnHit Defense Boost",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage, gain +7/8/9/10 DEF for 12 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "ONHITSTAT",
-        "PROC",
-        "STATBOOST",
-        "DEFENSE",
-        "PROCDEFENSE"
-      ],
-      "incompatibleLabels": [
-        "ONHITSTAT",
-        "PROCDEFENSE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "defense",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-dexterity-boost",
-      "name": "OnHit Dexterity Boost",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage, gain +5/6/7/8 DEX for 12 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "ONHITSTAT",
-        "PROC",
-        "STATBOOST",
-        "DEXTERITY",
-        "PROCDEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "ONHITSTAT",
-        "PROCDEXTERITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "dexterity",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-vitality-boost",
-      "name": "OnHit Vitality Boost",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage, gain +7/8/9/10 VIT for 12 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "ONHITSTAT",
-        "PROC",
-        "STATBOOST",
-        "VITALITY",
-        "PROCVITALITY"
-      ],
-      "incompatibleLabels": [
-        "ONHITSTAT",
-        "PROCVITALITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "vitality",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-wisdom-boost",
-      "name": "OnHit Wisdom Boost",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage, gain +7/8/9/10 WIS for 12 Seconds, 15 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "ONHITSTAT",
-        "PROC",
-        "STATBOOST",
-        "WISDOM",
-        "PROCWISDOM"
-      ],
-      "incompatibleLabels": [
-        "ONHITSTAT",
-        "PROCWISDOM"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "wisdom",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-heal",
-      "name": "OnHit Heal",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage while below 90% HP to heal 20/30/40/50 HP, 15 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONHIT",
-        "PROC",
-        "HEAL"
-      ],
-      "incompatibleLabels": [
-        "HEAL"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "life",
-        "recovery",
-        "proc"
-      ]
-    },
-    {
-      "id": "onhit-magic",
-      "name": "OnHit Magic",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "50% chance on Hit for atleast 20 Damage, gain while below 80% MP to restore 20/30/40/50 MP, 15 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONHIT",
-        "PROC",
-        "MAGIC"
-      ],
-      "incompatibleLabels": [
-        "MAGIC"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "mana",
-        "recovery",
-        "proc"
-      ]
-    },
-    {
-      "id": "onhit-berserk",
-      "name": "OnHit Berserk",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Berserk for 4/5/6/7 seconds, 20 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "PROC",
-        "BERSERK"
-      ],
-      "incompatibleLabels": [
-        "BERSERK"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-armored",
-      "name": "OnHit Armored",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Armored for 4/5/6/7 seconds, 20 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "PROC",
-        "ARMORED"
-      ],
-      "incompatibleLabels": [
-        "ARMORED"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "defense",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-damaging",
-      "name": "OnHit Damaging",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Damaging for 4/5/6/7 seconds, 20 Seconds Cooldown",
-      "labels": [
-        "ONHIT",
-        "PROC",
-        "DAMAGING"
-      ],
-      "incompatibleLabels": [
-        "DAMAGING"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-energized",
-      "name": "OnHit Energized",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Energized for 4/5/6/7 seconds, 20 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONHIT",
-        "PROC",
-        "ENERGIZED"
-      ],
-      "incompatibleLabels": [
-        "ENERGIZED"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "recovery",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-healing",
-      "name": "OnHit Healing",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Healing for 4/5/6/7 seconds, 20 Seconds Cooldown",
-      "labels": [
-        "RECOVERY",
-        "ONHIT",
-        "PROC",
-        "HEALING"
-      ],
-      "incompatibleLabels": [
-        "HEALING"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "life",
-        "recovery",
-        "proc",
-        "buffs"
-      ]
-    },
-    {
-      "id": "onhit-retaliation",
-      "name": "OnHit Retaliation",
-      "category": "Armor Enchantments",
-      "eligible": [
-        "ARMOR",
-        "RING"
-      ],
-      "effects": "20%/30%/40%/50% chance on Hit for atleast 20 Damage, Retaliate with a 950/1100/1250/1400 damage projectile, 3 Seconds Cooldown",
-      "labels": [
-        "DAMAGE",
-        "ONHIT",
-        "PROC",
-        "BULLETCREATE"
-      ],
-      "incompatibleLabels": [
-        "BULLETCREATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
-      "groups": [
-        "proc"
-      ]
-    },
-    {
-      "id": "xp-loot-bonus",
-      "name": "XP Loot Bonus",
-      "category": "Ring Enchantments",
-      "eligible": [
-        "RING"
-      ],
-      "effects": "+.5%/.75%/1%/1.25% Loot Drop rate +1%/1.5%/2%/2.5% XP Gain",
-      "labels": [
-        "REWARD",
-        "DUALREWARDBONUS",
-        "XP",
-        "LOOT"
-      ],
-      "incompatibleLabels": [
-        "DUALREWARDBONUS"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ygGpVpn.png",
-      "groups": [
-        "reward"
-      ]
-    },
-    {
-      "id": "dust-loot-bonus",
-      "name": "Dust Loot Bonus",
-      "category": "Ring Enchantments",
-      "eligible": [
-        "RING"
-      ],
-      "effects": "+.5%/.75%/1%/1.25% Loot Drop rate +1%/1.5%/2%/2.5% Dust Drop Rate",
-      "labels": [
-        "REWARD",
-        "DUALREWARDBONUS",
-        "DUST",
-        "LOOT"
-      ],
-      "incompatibleLabels": [
-        "DUALREWARDBONUS"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ygGpVpn.png",
-      "groups": [
-        "reward"
-      ]
-    },
-    {
-      "id": "xp-dust-bonus",
-      "name": "XP Dust Bonus",
-      "category": "Ring Enchantments",
-      "eligible": [
-        "RING"
-      ],
-      "effects": "+1%/1.5%/2%/2.5% XP Gain +1%/1.5%/2%/2.5% Dust Drop Rate",
-      "labels": [
-        "REWARD",
-        "DUALREWARDBONUS",
-        "XP",
-        "DUST"
-      ],
-      "incompatibleLabels": [
-        "DUALREWARDBONUS"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/ygGpVpn.png",
-      "groups": [
-        "reward"
-      ]
-    },
-    {
-      "id": "shaitan-s-might",
-      "name": "Shaitan’s Might",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+5 ATT",
-      "labels": [
-        "SINGLESTAT",
-        "ATTACK",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "attack",
-        "unique"
-      ]
-    },
-    {
-      "id": "sandstone-resilience",
-      "name": "Sandstone Resilience",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+5 DEF",
-      "labels": [
-        "SINGLESTAT",
-        "DEFENSE",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "defense",
-        "unique"
-      ]
-    },
-    {
-      "id": "pirate-s-expertise",
-      "name": "Pirate’s Expertise",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+5 DEX",
-      "labels": [
-        "SINGLESTAT",
-        "DEXTERITY",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "dexterity",
-        "unique"
-      ]
-    },
-    {
-      "id": "mermaid-magic",
-      "name": "Mermaid Magic",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+65 MP",
-      "labels": [
-        "SINGLESTAT",
-        "MANA",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "unique"
-      ]
-    },
-    {
-      "id": "vampiric-lifeforce",
-      "name": "Vampiric Lifeforce",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+40 HP",
-      "labels": [
-        "SINGLESTAT",
-        "LIFE",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "life",
-        "unique"
-      ]
-    },
-    {
-      "id": "stheno-s-swiftness",
-      "name": "Stheno’s Swiftness",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+8 SPD",
-      "labels": [
-        "SINGLESTAT",
-        "SPEED",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "speed",
-        "unique"
-      ]
-    },
-    {
-      "id": "crystalline-vigor",
-      "name": "Crystalline Vigor",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+6.6 VIT",
-      "labels": [
-        "SINGLESTAT",
-        "VITALITY",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "vitality",
-        "unique"
-      ]
-    },
-    {
-      "id": "avalon-s-intellect",
-      "name": "Avalon’s Intellect",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+6.6 WIS",
-      "labels": [
-        "SINGLESTAT",
-        "WISDOM",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "wisdom",
-        "unique"
-      ]
-    },
-    {
-      "id": "jester-s-trick",
-      "name": "Jester’s Trick",
-      "category": "Enchantment",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "+10 Life/Mana, +1 other Stats",
-      "labels": [
-        "DUALSTAT",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "life",
-        "unique"
-      ]
-    },
-    {
-      "id": "flurry-of-blows",
-      "name": "Flurry of Blows",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+35% Weapon Firerate -20% Weapon Damage",
-      "labels": [
-        "DAMAGE",
-        "TRADEOFF",
-        "WEAPONFIRERATE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "overwhelming-strikes",
-      "name": "Overwhelming Strikes",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+35% Weapon Damage -20% Weapon Firerate",
-      "labels": [
-        "DAMAGE",
-        "TRADEOFF",
-        "WEAPONFIRERATE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "unholy-spirits",
-      "name": "Unholy Spirits",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "10% Chance on shoot to spawn an Unholy Spirit that attack’s nearby enemies for 150 damage per second and lasts 5 seconds. Cooldown 0.4s.",
-      "labels": [
-        "DAMAGE",
-        "TRADEOFF",
-        "WEAPONFIRERATE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "proc",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "lucky-streak",
-      "name": "Lucky Streak",
-      "category": "Enchantment",
-      "eligible": [
-        "RING"
-      ],
-      "effects": "+3% XP +3% Loot +3% Dust",
-      "labels": [
-        "DUALREWARDBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DUALREWARDBONUS",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "reward",
-        "unique"
-      ]
-    },
-    {
-      "id": "ascension-of-geb",
-      "name": "Ascension of Geb",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+25 HP +25 MP +3 ATT",
-      "labels": [
-        "DUALSTAT",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "life",
-        "attack",
-        "unique"
-      ]
-    },
-    {
-      "id": "augment-overload",
-      "name": "Augment: Overload",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+8% Weapon Damage -30 HP",
-      "labels": [
-        "DAMAGE",
-        "WEAPONDAMAGE",
-        "TRADEOFF",
-        "SINGLESTAT",
-        "LIFE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "life",
-        "weapon_damage",
-        "fire_rate",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "augment-overdrive",
-      "name": "Augment: Overdrive",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+8% Weapon Firerate -5 DEF",
-      "labels": [
-        "DAMAGE",
-        "WEAPONFIRERATE",
-        "TRADEOFF",
-        "SINGLESTAT",
-        "DEFENSE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "defense",
-        "weapon_damage",
-        "fire_rate",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "ascension-of-nut",
-      "name": "Ascension of Nut",
-      "category": "Enchantment",
-      "eligible": [
-        "ABILITY"
-      ],
-      "effects": "+25 HP +25 MP +3 WIS",
-      "labels": [
-        "DUALSTAT",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "life",
-        "wisdom",
-        "unique"
-      ]
-    },
-    {
-      "id": "arcane-battery",
-      "name": "Arcane Battery",
-      "category": "Enchantment",
-      "eligible": [
-        "ABILITY"
-      ],
-      "effects": "+95 MP",
-      "labels": [
-        "SINGLESTAT",
-        "MANA",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "SINGLESTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "unique"
-      ]
-    },
-    {
-      "id": "ascension-of-bes",
-      "name": "Ascension of Bes",
-      "category": "Enchantment",
-      "eligible": [
-        "ARMOR"
-      ],
-      "effects": "+25 HP +25 MP +3 DEF",
-      "labels": [
-        "DUALSTAT",
-        "FLATBONUS",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "mana",
-        "life",
-        "defense",
-        "unique"
-      ]
-    },
-    {
-      "id": "candy-coated",
-      "name": "Candy-Coated",
-      "category": "Enchantment",
-      "eligible": [
-        "ARMOR"
-      ],
-      "effects": "+10 DEF -5 DEX",
-      "labels": [
-        "DUALSTAT",
-        "TRADEOFF",
-        "FLATBONUS",
-        "DEFENSE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "dexterity",
-        "defense",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "freezing-regeneration",
-      "name": "Freezing Regeneration",
-      "category": "Enchantment",
-      "eligible": [
-        "ARMOR"
-      ],
-      "effects": "Increases Life regen by 6 per second, Doubled Out of comabt OnHit below 40% HP: gain 85 hp/s Healing for 2 seconds, 20 Second Cooldown",
-      "labels": [
-        "FLATREGEN",
-        "LIFEREGEN",
-        "RECOVERY",
-        "HEALING",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "LIFEREGEN",
-        "HEALING",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yyTbgEw.png",
-      "groups": [
-        "life",
-        "recovery",
-        "proc",
-        "buffs",
-        "unique"
-      ]
-    },
-    {
-      "id": "frost-barrier",
-      "name": "Frost Barrier",
-      "category": "Enchantment",
-      "eligible": [
-        "ARMOR"
-      ],
-      "effects": "+3% Dmg Reduction OnHit below 80% HP: +5 Defense & Armored for 4 seconds, 20 Second Cooldown",
-      "labels": [
-        "DAMAGERESISTANCE",
-        "ARMORED",
-        "DURABILITY",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "DAMAGERESISTANCE",
-        "ARMORED",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yyTbgEw.png",
-      "groups": [
-        "life",
-        "defense",
-        "proc",
-        "buffs",
-        "unique"
-      ]
-    },
-    {
-      "id": "permafrost-magic",
-      "name": "Permafrost Magic",
-      "category": "Enchantment",
-      "eligible": [
-        "ABILITY"
-      ],
-      "effects": "Increases Mana regen by 3 per second, Doubled Out of comabt OnAbility below 50% MP: gain 75mp/s Energized for 2 secods, 20 Second Cooldown",
-      "labels": [
-        "RECOVERY",
-        "FLATREGEN",
-        "MANAREGEN",
-        "ENERGIZED",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "MANAREGEN",
-        "ENERGIZED",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yyTbgEw.png",
-      "groups": [
-        "mana",
-        "recovery",
-        "proc",
-        "buffs",
-        "unique"
-      ]
-    },
-    {
-      "id": "snow-golems",
-      "name": "Snow Golems",
-      "category": "Enchantment",
-      "eligible": [
-        "ABILITY"
-      ],
-      "effects": "6% Ability Cost Reduction OnAbility: snow golem to follow you, attacking nearby enemies and inflicting slowed on them. The golem lasts for 8 seconds. 10 second cooldown.",
-      "labels": [
-        "MPCOSTREDUCTION",
-        "SUMMON",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "MPCOSTREDUCTION",
-        "STATMODMULT",
-        "SUMMON",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yyTbgEw.png",
-      "groups": [
-        "mana",
-        "ability",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "eternal-restoration",
-      "name": "Eternal Restoration",
-      "category": "Enchantment",
-      "eligible": [
-        "RING"
-      ],
-      "effects": "Increases Life regen by 8 per second, Doubled Out of comabt Increases Mana regen by 4 per second, Doubled Out of comabt",
-      "labels": [
-        "MANAREGEN",
-        "FLATREGEN",
-        "LIFEREGEN",
-        "RECOVERY",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "LIFEREGEN",
-        "MANAREGEN",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yyTbgEw.png",
-      "groups": [
-        "mana",
-        "life",
-        "recovery",
-        "unique"
-      ]
-    },
-    {
-      "id": "razor-shards",
-      "name": "Razor Shards",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+3% Weapon Damage On Shoot: fire 2 ice shards that deal 35 Armor piercing damage each and pierce enemies (0.4 second cooldown)",
-      "labels": [
-        "WEAPONDAMAGE",
-        "BULLETCREATE",
-        "UNIQUE"
-      ],
-      "incompatibleLabels": [
-        "WEAPONDAMAGE",
-        "BULLETCREATE",
-        "UNIQUE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yyTbgEw.png",
-      "groups": [
-        "weapon_damage",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "ancient-s-blessing",
-      "name": "Ancient’s Blessing",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+30 HP, +3 DEX, +3 DEF",
-      "labels": [
-        "AWAKENED",
-        "STAT",
-        "DUALSTAT",
-        "FLATBONUS"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "AWAKENED"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/WgB43iS.png",
-      "groups": [
-        "life",
-        "dexterity",
-        "defense",
-        "unique"
-      ]
-    },
-    {
-      "id": "ancient-artifacts",
-      "name": "Ancient Artifacts",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+3 DEX, +3 DEF, +3 SPD Summon the artifacts of the Ancient Gods. Pyramid Artifact weakens nearby enemies Nile artifact heals 20 hp/s Sphinx artifact deals 275 Damage per second to nearby enemies.",
-      "labels": [
-        "AWAKENED",
-        "SUMMON",
-        "DUALSTAT",
-        "SPEED",
-        "DEXTERITY",
-        "DEFENSE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "SUMMON",
-        "DUALSTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/WgB43iS.png",
-      "groups": [
-        "life",
-        "dexterity",
-        "defense",
-        "speed",
-        "recovery",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "apitoxin",
-      "name": "Apitoxin",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Fires a poison towards your cursor every second, this poison does 350 damage over 3 seconds with a radius of 2.5. This poison scales off of wisdom, gaining 20 damage per wisdom, and 0.1 radius every 5 wisdom over 50.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/PIdAC40.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "unique"
-      ]
-    },
-    {
-      "id": "artificial-core",
-      "name": "Artificial Core",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Changes the weapons attack to fire 6 converging bullets at 65% fire rate. These bullets armor pierce and deal 50-70 damage each.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fo0LHuK.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "proc",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "bone-claws",
-      "name": "Bone Claws",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Changes the weapon attack to fire two bleeding shots at 70% rate of fire. The shots deal 70-105 damage and inflict a 30/s damage bleed for 3 seconds.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/HCtwxMH.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "proc",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "buzzing-bullets",
-      "name": "Buzzing Bullets",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Unleash the wrath of Bees with your attacks. Adding a burst of bee bullets that each deal 60 armor piercing damage.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONRANGE",
-        "WEAPONFIRERATE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/PIdAC40.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "crystalline-channel",
-      "name": "Crystalline Channel",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+66% DEX of Bonus WIS +66% WIS of Bonus DEX.",
-      "labels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "CONVERSIONBONUS"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DUALSTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/NxA3Nrm.png",
-      "groups": [
-        "dexterity",
-        "wisdom",
-        "unique"
-      ]
-    },
-    {
-      "id": "crystal-shards",
-      "name": "Crystal Shards",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "20% Chance on Shoot to spawn a crystal shard that explodes after a delay. The shards explode into 3 armor piercing shots that each deal 300-400 Damage. Cooldown 0.8 seconds.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE",
-        "SUMMON"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE",
-        "SUMMON"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/21QDJJz.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "proc",
-        "reward",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "draconic-gaze",
-      "name": "Draconic Gaze",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+50 MP On ability use, gain Damaging for 2 seconds, 5 second cooldown.",
-      "labels": [
-        "AWAKENED",
-        "DAMAGING",
-        "SINGLESTAT"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DAMAGING",
-        "SINGLESTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/Hz41NTP.png",
-      "groups": [
-        "mana",
-        "buffs",
-        "unique"
-      ]
-    },
-    {
-      "id": "drake-warden",
-      "name": "Drake Warden",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+40 HP, +2 ATT On Ability use: Summon a random Drake follower , Cooldown 30 seconds.",
-      "labels": [
-        "STAT",
-        "DUALSTAT",
-        "FLATBONUS",
-        "AWAKENED",
-        "SUMMON"
-      ],
-      "incompatibleLabels": [
-        "DUALSTAT",
-        "AWAKENED",
-        "SUMMON"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hyDVSbC.png",
-      "groups": [
-        "life",
-        "attack",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "el-dorado-s-legacy",
-      "name": "El Dorado’s Legacy",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+120 Max MP, +2 DEX, +2 WIS On hit, 50% chance to restore 25 MP, 2.5 second cooldown.",
-      "labels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "MAGIC"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "MAGIC"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/IOtelXP.png",
-      "groups": [
-        "mana",
-        "dexterity",
-        "wisdom",
-        "unique"
-      ]
-    },
-    {
-      "id": "eye-of-the-spider",
-      "name": "Eye of the Spider",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+50 Max HP, +5 DEX On ability use, fire a massive web ball for 800 damage and inflict 8s Slowed, 16 second cooldown.",
-      "labels": [
-        "AWAKENED",
-        "DAMAGE",
-        "BULLETCREATE",
-        "DUALSTAT"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "BULLETCREATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/rVMkwNK.png",
-      "groups": [
-        "life",
-        "dexterity",
-        "weapon_damage",
-        "unique"
-      ]
-    },
-    {
-      "id": "fractured-blade",
-      "name": "Fractured Blade",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Changes the weapon attack to fire an additional two shots splitting from the main shot 3 tiles away. These shots armor pierce and deal 30-45 Damage. The main shot additionally gains piercing.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/21QDJJz.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "hellfire-edge",
-      "name": "Hellfire Edge",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+33% DEX of bonus VIT 3 hellfire slashes fire in a much tighter cone for 105-125 damage.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/xRk3cGQ.png",
-      "groups": [
-        "dexterity",
-        "vitality",
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "high-voltage",
-      "name": "High Voltage",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Fires a lightning blast every second. This blast deals 200 damage to up to 2 targets with the first target taking a shockblast for 40 damage. This blast scales off wisdom, gaining 5 total damage per wisdom and gaining a target every 30 wis over 50.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fo0LHuK.png",
-      "groups": [
-        "wisdom",
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "unique"
-      ]
-    },
-    {
-      "id": "infernal-anger",
-      "name": "Infernal Anger",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Gain 6 Attack and take 5% less damage. On shoot while above 70% HP inflict bleeding and sickness on yourself. On shoot while at or below 70% HP gain an additional 20% Damage Resistance.",
-      "labels": [
-        "AWAKENED",
-        "ATTACK",
-        "SINGLESTAT",
-        "DURABILITY",
-        "DAMAGERESISTANCE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "ATTACK",
-        "SINGLESTAT",
-        "DURABILITY",
-        "DAMAGERESISTANCE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/xRk3cGQ.png",
-      "groups": [
-        "life",
-        "attack",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "kogbold-spirit",
-      "name": "Kogbold Spirit",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "-5 DEF When shooting while above 90% HP, gain +4 DEX and +4 ATT for 1 second.",
-      "labels": [
-        "AWAKENED",
-        "PROCATTACK",
-        "PROCDEXTERITY",
-        "OHSHOOTSTAT"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "ONSHOOTSTAT",
-        "PROCATTACK",
-        "PROCDEXTERITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fo0LHuK.png",
-      "groups": [
-        "life",
-        "attack",
-        "dexterity",
-        "defense",
-        "proc",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "living-hive",
-      "name": "Living Hive",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+60 HP and +5 SPD Release bees on when hit for more than 40 damage, cooldown 2 seconds.",
-      "labels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "SUMMON"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DUALSTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/PIdAC40.png",
-      "groups": [
-        "life",
-        "speed",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "masked-god-s-dance",
-      "name": "Masked God’s Dance",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+10 DEX",
-      "labels": [
-        "AWAKENED",
-        "STAT",
-        "SINGLESTAT",
-        "FLATBONUS",
-        "DEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "SINGLESTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/26Nhj7B.png",
-      "groups": [
-        "dexterity",
-        "unique"
-      ]
-    },
-    {
-      "id": "molecular-blade",
-      "name": "Molecular Blade",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Changes the weapon attack to fire two Armor Piercing shots, one main shot dealing 180-235 shot at 100% fire rate, and another small shot dealing 30-55 damage at 150% fire rate.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/fo0LHuK.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "necrotic-knowledge",
-      "name": "Necrotic Knowledge",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "10% Ability Cost Reduction Increases Wisdom by 20% of Bonus Wisdom.",
-      "labels": [
-        "AWAKENED",
-        "WISDOM",
-        "SINGLESTAT",
-        "STAT",
-        "RELATIVEBONUS",
-        "CASTING",
-        "MPCOSTREDUCTION"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "SINGLESTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/UDFqc9T.png",
-      "groups": [
-        "mana",
-        "wisdom",
-        "ability",
-        "unique"
-      ]
-    },
-    {
-      "id": "night-s-soul",
-      "name": "Night’s Soul",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Gain 20 HP and MP and 2 of every other stat. Gain 2% Loot, Dust and XP Bonus.",
-      "labels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "FLATBONUS",
-        "DUALREWARDBONUS"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "DUALREWARDBONUS"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wqxbcvu.png",
-      "groups": [
-        "mana",
-        "life",
-        "reward",
-        "unique"
-      ]
-    },
-    {
-      "id": "night-s-strength",
-      "name": "Night’s Strength",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Gain +4.5% Weapon Damage and Fire Rate.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wqxbcvu.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "unique"
-      ]
-    },
-    {
-      "id": "night-s-tenacity",
-      "name": "Night’s Tenacity",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Reduce incoming damage by 5%, gain 20 Maximum Health.",
-      "labels": [
-        "AWAKENED",
-        "DURABILITY",
-        "DAMAGERESISTANCE",
-        "SINGLESTAT",
-        "LIFE",
-        "FLATBONUS"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "SINGLESTAT",
-        "DAMAGERESISTANCE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wqxbcvu.png",
-      "groups": [
-        "life",
-        "recovery",
-        "unique"
-      ]
-    },
-    {
-      "id": "night-s-wisdom",
-      "name": "Night’s Wisdom",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Reduces MP cost by 10%, Gain 3 Wisdom and 3 Defense.",
-      "labels": [
-        "AWAKENED",
-        "CASTING",
-        "MPCOSTREDUCTION",
-        "FLATBONUS",
-        "DUALSTAT",
-        "WISDOM",
-        "DEFENSE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "DUALSTAT",
-        "MPCOSTREDUCTION",
-        "STATMODMULT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wqxbcvu.png",
-      "groups": [
-        "mana",
-        "defense",
-        "wisdom",
-        "ability",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "raijin-s-dance",
-      "name": "Raijin’s Dance",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "On ability use, call lightning dealing 450 Damage across 3 targets.",
-      "labels": [
-        "AWAKENED"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/kkY4WuS.png",
-      "groups": [
-        "unique"
-      ]
-    },
-    {
-      "id": "soulful-mastery",
-      "name": "Soulful Mastery",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+33% ATT of bonus WIS +33% WIS of Bonus ATT Soul arrows deal 1111 base damage at 18% rate of fire and travel further.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/UDFqc9T.png",
-      "groups": [
-        "attack",
-        "wisdom",
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "unique"
-      ]
-    },
-    {
-      "id": "swarm-tree-s-wrath",
-      "name": "Swarm Tree’s Wrath",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Adds a burst of insects to the sides of the main pattern, these bullets deal 25 armor piercing damage each.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/PIdAC40.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "the-king-s-treasure",
-      "name": "The King’s Treasure",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "+80 Max HP Shooting below 25% HP will gain +8 ATT, +8 DEF for 8s.",
-      "labels": [
-        "AWAKENED",
-        "ONSHOOTSTAT",
-        "PROCATTACK",
-        "PROCDEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "ONSHOOTSTAT",
-        "PROCATTACK",
-        "PROCDEXTERITY"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/uOsR3xZ.png",
-      "groups": [
-        "life",
-        "attack",
-        "defense",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "thornswarm",
-      "name": "Thornswarm",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Engulf enemies in a torrent of rapid armor-piercing thorns at 170% rate of fire.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/RgZLVb0.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "tradeoff",
-        "unique"
-      ]
-    },
-    {
-      "id": "venom-coating",
-      "name": "Venom Coating",
-      "category": "Enchantment",
-      "eligible": [],
-      "effects": "Envenomed shots now inflict 4s of Bleeding for 12 damage per second.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/oCKV7WK.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "range",
-        "proc",
-        "unique"
-      ]
-    },
-    {
-      "id": "stellar-ascend",
-      "name": "Stellar Ascend",
-      "category": "Enchantment",
-      "eligible": [
-        "WEAPON"
-      ],
-      "effects": "+3 ATT, +3 SPD, +3 WIS",
-      "labels": [
-        "UNIQUE",
-        "STELLARASCEND",
-        "DUALSTAT"
-      ],
-      "incompatibleLabels": [
-        "UNIQUE",
-        "DUALSTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hus6Xs6.png",
-      "groups": [
-        "attack",
-        "speed",
-        "wisdom",
-        "unique"
       ]
     }
   ],
