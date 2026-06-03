@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-06-03T13:34:46Z",
+  "sourceUrl": "https://www.realmeye.com/wiki/enchanting",
+  "currentCount": 260,
+  "parsedRealmEyeCount": 165,
+  "newCount": 7,
+  "newEnchantIds": [
+    "regular-haracter",
+    "drop-hance",
+    "uncommon",
+    "rare",
+    "legendary",
+    "divine",
+    "enchantment-name"
+  ],
+  "newEnchants": [
+    {
+      "id": "regular-haracter",
+      "name": "Regular Сharacter",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Seasonal Сharacter",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "drop-hance",
+      "name": "Drop Сhance",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Forge Сhance Drop Сhance Forge Сhance",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "uncommon",
+      "name": "Uncommon",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "50% 50% 40% 52.5% 42% 1",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/yLRmif1.png",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "rare",
+      "name": "Rare",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "37.5% 18.75% 15% 19.6875% 15.75% 2",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/0jHR1n2.png",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "legendary",
+      "name": "Legendary",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "25% 4.6875% 3.75% 4.921875% 3.9375% 3",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/77nuk4H.png",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "divine",
+      "name": "Divine",
+      "category": "Enchantment Rarity",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "12.5% 0.5859375% 0.46875% 0.6152344% 0.4921875% 4",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/mxt6Xsf.png",
+      "groups": [
+        "other"
+      ]
+    },
+    {
+      "id": "enchantment-name",
+      "name": "Enchantment Name",
+      "category": "Basic Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Eligible Items Effect(s) I / II / III / IV Enchantment Labels Incompatible Labels",
+      "labels": [],
+      "incompatibleLabels": [],
+      "icon": "",
+      "groups": [
+        "other"
+      ]
+    }
+  ]
+}
