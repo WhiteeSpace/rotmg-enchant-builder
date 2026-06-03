@@ -1,0 +1,49 @@
+name: Detect new RealmEye enchants
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  detect-new-enchants:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Detect new enchants
+        run: |
+          python scripts/detect_new_enchants.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/enchants.json data/new_enchants_report.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Detect new RealmEye enchants"
+          title: "[Auto] New RealmEye enchants detected"
+          body-path: data/new_enchants_report.json
+          branch: auto/new-realmeye-enchants
+          delete-branch: true
+          labels: |
+            automated
+            enchant-database
