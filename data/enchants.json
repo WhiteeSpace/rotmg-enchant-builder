@@ -4665,6 +4665,13 @@
         "mana",
         "proc",
         "tradeoff"
+      ],
+      "weight": 180000,
+      "weights": [
+        60000,
+        50000,
+        40000,
+        30000
       ]
     },
     {
@@ -6675,7 +6682,7 @@
         "buffs",
         "unique"
       ],
-      "weight": null
+      "weight": 750
     },
     {
       "id": "frost-barrier",
@@ -6704,7 +6711,7 @@
         "buffs",
         "unique"
       ],
-      "weight": null
+      "weight": 750
     },
     {
       "id": "permafrost-magic",
@@ -6734,7 +6741,7 @@
         "buffs",
         "unique"
       ],
-      "weight": null
+      "weight": 750
     },
     {
       "id": "snow-golems",
@@ -6762,7 +6769,7 @@
         "proc",
         "unique"
       ],
-      "weight": null
+      "weight": 750
     },
     {
       "id": "eternal-restoration",
@@ -6791,7 +6798,7 @@
         "recovery",
         "unique"
       ],
-      "weight": null
+      "weight": 750
     },
     {
       "id": "razor-shards",
@@ -6817,7 +6824,7 @@
         "proc",
         "unique"
       ],
-      "weight": null
+      "weight": 750
     },
     {
       "id": "ancient-s-blessing",
@@ -7719,7 +7726,8 @@
         "weapon_damage",
         "fire_rate",
         "awakened"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "consuming-void",
@@ -7746,7 +7754,8 @@
         "fire_rate",
         "proc",
         "awakened"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "coral-volley",
@@ -7778,7 +7787,8 @@
         "proc",
         "awakened",
         "armor_piercing"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "cursebearer",
@@ -7816,7 +7826,8 @@
         "recovery",
         "proc",
         "awakened"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "n-o-v-a",
@@ -7875,7 +7886,8 @@
         "weapon_damage",
         "fire_rate",
         "awakened"
-      ]
+      ],
+      "weight": 7500
     }
   ],
   "groupDefinitions": [
