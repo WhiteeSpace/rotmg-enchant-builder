@@ -1,7 +1,7 @@
 {
   "source": "RealmEye enchanting HTML",
   "generatedFrom": "html enchanting realmeye.html",
-  "updatedFromOriginalHtml": "2026-06-04",
+  "updatedFromOriginalHtml": "2026-06-02",
   "itemTypes": [
     "WEAPON",
     "ABILITY",
@@ -28,6 +28,13 @@
       "icon": "",
       "groups": [
         "attack"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -49,6 +56,13 @@
       "icon": "",
       "groups": [
         "defense"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -70,6 +84,13 @@
       "icon": "",
       "groups": [
         "dexterity"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -91,6 +112,13 @@
       "icon": "",
       "groups": [
         "mana"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -112,6 +140,13 @@
       "icon": "",
       "groups": [
         "life"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -133,6 +168,13 @@
       "icon": "",
       "groups": [
         "speed"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -154,6 +196,13 @@
       "icon": "",
       "groups": [
         "vitality"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -175,6 +224,13 @@
       "icon": "",
       "groups": [
         "wisdom"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -196,6 +252,13 @@
       "icon": "",
       "groups": [
         "attack"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -217,6 +280,13 @@
       "icon": "",
       "groups": [
         "defense"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -238,6 +308,13 @@
       "icon": "",
       "groups": [
         "dexterity"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -259,6 +336,13 @@
       "icon": "",
       "groups": [
         "mana"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -280,6 +364,13 @@
       "icon": "",
       "groups": [
         "life"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -301,6 +392,13 @@
       "icon": "",
       "groups": [
         "speed"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -322,6 +420,13 @@
       "icon": "",
       "groups": [
         "vitality"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -343,6 +448,13 @@
       "icon": "",
       "groups": [
         "wisdom"
+      ],
+      "weight": 52000,
+      "weights": [
+        17500,
+        17000,
+        10000,
+        7500
       ]
     },
     {
@@ -365,6 +477,13 @@
       "groups": [
         "attack",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -387,6 +506,13 @@
       "groups": [
         "attack",
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -409,6 +535,13 @@
       "groups": [
         "mana",
         "attack"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -431,6 +564,13 @@
       "groups": [
         "life",
         "attack"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -452,6 +592,13 @@
       "icon": "",
       "groups": [
         "attack"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -474,6 +621,13 @@
       "groups": [
         "attack",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -496,6 +650,13 @@
       "groups": [
         "attack",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -517,6 +678,13 @@
       "icon": "",
       "groups": [
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -539,6 +707,13 @@
       "groups": [
         "dexterity",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -561,6 +736,13 @@
       "groups": [
         "mana",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -583,6 +765,13 @@
       "groups": [
         "life",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -604,6 +793,13 @@
       "icon": "",
       "groups": [
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -626,6 +822,13 @@
       "groups": [
         "defense",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -648,6 +851,13 @@
       "groups": [
         "defense",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -669,6 +879,13 @@
       "icon": "",
       "groups": [
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -691,6 +908,13 @@
       "groups": [
         "dexterity",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -713,6 +937,13 @@
       "groups": [
         "mana",
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -735,6 +966,13 @@
       "groups": [
         "life",
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -756,6 +994,13 @@
       "icon": "",
       "groups": [
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -778,6 +1023,13 @@
       "groups": [
         "dexterity",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -800,6 +1052,13 @@
       "groups": [
         "dexterity",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -821,6 +1080,13 @@
       "icon": "",
       "groups": [
         "mana"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -843,6 +1109,13 @@
       "groups": [
         "mana",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -865,6 +1138,13 @@
       "groups": [
         "mana",
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -887,6 +1167,13 @@
       "groups": [
         "mana",
         "life"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -908,6 +1195,13 @@
       "icon": "",
       "groups": [
         "mana"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -930,6 +1224,13 @@
       "groups": [
         "mana",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -952,6 +1253,13 @@
       "groups": [
         "mana",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -973,6 +1281,13 @@
       "icon": "",
       "groups": [
         "life"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -995,6 +1310,13 @@
       "groups": [
         "life",
         "defense"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1017,6 +1339,13 @@
       "groups": [
         "life",
         "dexterity"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1039,6 +1368,13 @@
       "groups": [
         "mana",
         "life"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1060,6 +1396,13 @@
       "icon": "",
       "groups": [
         "life"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1082,6 +1425,13 @@
       "groups": [
         "life",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1104,6 +1454,13 @@
       "groups": [
         "life",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1125,6 +1482,13 @@
       "icon": "",
       "groups": [
         "speed"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1147,6 +1511,13 @@
       "groups": [
         "defense",
         "speed"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1169,6 +1540,13 @@
       "groups": [
         "dexterity",
         "speed"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1191,6 +1569,13 @@
       "groups": [
         "mana",
         "speed"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1213,6 +1598,13 @@
       "groups": [
         "life",
         "speed"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1235,6 +1627,13 @@
       "groups": [
         "speed",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1257,6 +1656,13 @@
       "groups": [
         "speed",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1278,6 +1684,13 @@
       "icon": "",
       "groups": [
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1300,6 +1713,13 @@
       "groups": [
         "defense",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1322,6 +1742,13 @@
       "groups": [
         "dexterity",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1344,6 +1771,13 @@
       "groups": [
         "mana",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1366,6 +1800,13 @@
       "groups": [
         "life",
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1387,6 +1828,13 @@
       "icon": "",
       "groups": [
         "vitality"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1409,6 +1857,13 @@
       "groups": [
         "vitality",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1430,6 +1885,13 @@
       "icon": "",
       "groups": [
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1452,6 +1914,13 @@
       "groups": [
         "defense",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1474,6 +1943,13 @@
       "groups": [
         "dexterity",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1496,6 +1972,13 @@
       "groups": [
         "mana",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1518,6 +2001,13 @@
       "groups": [
         "life",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1539,6 +2029,13 @@
       "icon": "",
       "groups": [
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1561,6 +2058,13 @@
       "groups": [
         "vitality",
         "wisdom"
+      ],
+      "weight": 12000,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1375
       ]
     },
     {
@@ -1584,6 +2088,13 @@
       "groups": [
         "attack",
         "defense"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1607,6 +2118,13 @@
       "groups": [
         "attack",
         "dexterity"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1630,6 +2148,13 @@
       "groups": [
         "mana",
         "attack"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1653,6 +2178,13 @@
       "groups": [
         "life",
         "attack"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1676,6 +2208,13 @@
       "groups": [
         "attack",
         "speed"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1699,6 +2238,13 @@
       "groups": [
         "attack",
         "vitality"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1722,6 +2268,13 @@
       "groups": [
         "attack",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1745,6 +2298,13 @@
       "groups": [
         "dexterity",
         "defense"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1768,6 +2328,13 @@
       "groups": [
         "mana",
         "defense"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1791,6 +2358,13 @@
       "groups": [
         "life",
         "defense"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1814,6 +2388,13 @@
       "groups": [
         "defense",
         "speed"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1837,6 +2418,13 @@
       "groups": [
         "defense",
         "vitality"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1860,6 +2448,13 @@
       "groups": [
         "defense",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1883,6 +2478,13 @@
       "groups": [
         "mana",
         "dexterity"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1906,6 +2508,13 @@
       "groups": [
         "life",
         "dexterity"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1929,6 +2538,13 @@
       "groups": [
         "dexterity",
         "speed"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1952,6 +2568,13 @@
       "groups": [
         "dexterity",
         "vitality"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1975,6 +2598,13 @@
       "groups": [
         "dexterity",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -1998,6 +2628,13 @@
       "groups": [
         "mana",
         "life"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2021,6 +2658,13 @@
       "groups": [
         "mana",
         "speed"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2044,6 +2688,13 @@
       "groups": [
         "mana",
         "vitality"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2067,6 +2718,13 @@
       "groups": [
         "mana",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2090,6 +2748,13 @@
       "groups": [
         "life",
         "speed"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2113,6 +2778,13 @@
       "groups": [
         "life",
         "vitality"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2136,6 +2808,13 @@
       "groups": [
         "life",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2159,6 +2838,13 @@
       "groups": [
         "speed",
         "vitality"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2183,6 +2869,13 @@
         "defense",
         "speed",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2206,6 +2899,13 @@
       "groups": [
         "vitality",
         "wisdom"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -2230,6 +2930,13 @@
         "attack",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2254,6 +2961,13 @@
         "attack",
         "dexterity",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2278,6 +2992,13 @@
         "mana",
         "attack",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2302,6 +3023,13 @@
         "life",
         "attack",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2326,6 +3054,13 @@
         "attack",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2350,6 +3085,13 @@
         "attack",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2374,6 +3116,13 @@
         "attack",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2398,6 +3147,13 @@
         "attack",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2422,6 +3178,13 @@
         "dexterity",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2446,6 +3209,13 @@
         "mana",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2470,6 +3240,13 @@
         "life",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2494,6 +3271,13 @@
         "defense",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2518,6 +3302,13 @@
         "defense",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2542,6 +3333,13 @@
         "defense",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2566,6 +3364,13 @@
         "attack",
         "dexterity",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2589,6 +3394,13 @@
         "dexterity",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2613,6 +3425,13 @@
         "mana",
         "dexterity",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2637,6 +3456,13 @@
         "life",
         "dexterity",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2661,6 +3487,13 @@
         "dexterity",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2685,6 +3518,13 @@
         "dexterity",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2709,6 +3549,13 @@
         "dexterity",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2733,6 +3580,13 @@
         "mana",
         "attack",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2756,6 +3610,13 @@
         "mana",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2780,6 +3641,13 @@
         "mana",
         "dexterity",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2804,6 +3672,13 @@
         "mana",
         "life",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2828,6 +3703,13 @@
         "mana",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2852,6 +3734,13 @@
         "mana",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2876,6 +3765,13 @@
         "mana",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2900,6 +3796,13 @@
         "life",
         "attack",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2924,6 +3827,13 @@
         "life",
         "defense",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2948,6 +3858,13 @@
         "life",
         "dexterity",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2972,6 +3889,13 @@
         "mana",
         "life",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -2996,6 +3920,13 @@
         "life",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3020,6 +3951,13 @@
         "life",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3044,6 +3982,13 @@
         "life",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3068,6 +4013,13 @@
         "attack",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3091,6 +4043,13 @@
         "defense",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3115,6 +4074,13 @@
         "dexterity",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3139,6 +4105,13 @@
         "mana",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3163,6 +4136,13 @@
         "life",
         "speed",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3187,6 +4167,13 @@
         "speed",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3211,6 +4198,13 @@
         "speed",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3235,6 +4229,13 @@
         "attack",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3258,6 +4259,13 @@
         "defense",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3282,6 +4290,13 @@
         "dexterity",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3306,6 +4321,13 @@
         "mana",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3330,6 +4352,13 @@
         "life",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3354,6 +4383,13 @@
         "speed",
         "vitality",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3378,6 +4414,13 @@
         "vitality",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3402,6 +4445,13 @@
         "attack",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3426,6 +4476,13 @@
         "defense",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3450,6 +4507,13 @@
         "dexterity",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3474,6 +4538,13 @@
         "mana",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3498,6 +4569,13 @@
         "life",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3522,6 +4600,13 @@
         "speed",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
       ]
     },
     {
@@ -3546,6 +4631,40 @@
         "vitality",
         "wisdom",
         "tradeoff"
+      ],
+      "weight": 12500,
+      "weights": [
+        4375,
+        3750,
+        2500,
+        1875
+      ]
+    },
+    {
+      "id": "summon-power-stat-mod-multiplier-tradeoff",
+      "name": "Summon Power Stat Mod Multiplier Tradeoff",
+      "category": "Dual Stat Enchantments",
+      "eligible": [
+        "ABILITY",
+        "ARMOR"
+      ],
+      "effects": "Increases Summon Power by 2/3/4/5 decreases Stat Mod value by 4%/11%/18%/25%",
+      "labels": [
+        "DUALSTAT",
+        "STATMODMULT",
+        "SUMMONPOWER",
+        "MPCOSTREDUCTION",
+        "TRADEOFF"
+      ],
+      "incompatibleLabels": [
+        "STATMODMULT",
+        "MPCOSTREDUCTION"
+      ],
+      "icon": "",
+      "groups": [
+        "mana",
+        "proc",
+        "tradeoff"
       ]
     },
     {
@@ -3566,6 +4685,13 @@
       "icon": "",
       "groups": [
         "reward"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3586,6 +4712,13 @@
       "icon": "",
       "groups": [
         "reward"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3606,6 +4739,13 @@
       "icon": "",
       "groups": [
         "reward"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3628,6 +4768,13 @@
       "groups": [
         "weapon_damage",
         "fire_rate"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3650,6 +4797,13 @@
       "groups": [
         "weapon_damage",
         "fire_rate"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3674,6 +4828,13 @@
         "weapon_damage",
         "fire_rate",
         "tradeoff"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -3698,6 +4859,13 @@
         "weapon_damage",
         "fire_rate",
         "tradeoff"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -3719,6 +4887,13 @@
       "groups": [
         "life",
         "range"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -3739,6 +4914,13 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/467Rd3y.png",
       "groups": [
         "range"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -3767,6 +4949,13 @@
         "attack",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3795,6 +4984,13 @@
         "defense",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3823,6 +5019,13 @@
         "dexterity",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3851,6 +5054,13 @@
         "vitality",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3879,6 +5089,13 @@
         "wisdom",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3904,6 +5121,13 @@
         "life",
         "recovery",
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3929,6 +5153,13 @@
         "mana",
         "recovery",
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -3951,6 +5182,13 @@
       "groups": [
         "mana",
         "ability"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3973,6 +5211,13 @@
       "groups": [
         "mana",
         "ability"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -3996,6 +5241,13 @@
       "groups": [
         "mana",
         "recovery"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4019,6 +5271,13 @@
       "groups": [
         "mana",
         "recovery"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4047,6 +5306,13 @@
         "attack",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4075,6 +5341,13 @@
         "defense",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4103,6 +5376,13 @@
         "dexterity",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4131,6 +5411,13 @@
         "vitality",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4159,6 +5446,13 @@
         "wisdom",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4184,6 +5478,13 @@
         "life",
         "recovery",
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4209,6 +5510,13 @@
         "mana",
         "recovery",
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4232,6 +5540,13 @@
       "groups": [
         "life",
         "recovery"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4255,6 +5570,13 @@
       "groups": [
         "life",
         "recovery"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4275,6 +5597,13 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/D5u1e00.png",
       "groups": [
         "defense"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4303,6 +5632,13 @@
         "attack",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4331,6 +5667,13 @@
         "defense",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4359,6 +5702,13 @@
         "dexterity",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4387,6 +5737,13 @@
         "vitality",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4415,6 +5772,13 @@
         "wisdom",
         "proc",
         "buffs"
+      ],
+      "weight": 100000,
+      "weights": [
+        35000,
+        30000,
+        20000,
+        15000
       ]
     },
     {
@@ -4440,6 +5804,13 @@
         "life",
         "recovery",
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4465,6 +5836,13 @@
         "mana",
         "recovery",
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4488,6 +5866,13 @@
       "groups": [
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4512,6 +5897,13 @@
         "defense",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4535,6 +5927,13 @@
       "groups": [
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4560,6 +5959,13 @@
         "recovery",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4586,6 +5992,13 @@
         "recovery",
         "proc",
         "buffs"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4609,6 +6022,13 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/3vwv7MR.png",
       "groups": [
         "proc"
+      ],
+      "weight": 50000,
+      "weights": [
+        17500,
+        15000,
+        10000,
+        7500
       ]
     },
     {
@@ -4631,6 +6051,13 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/ygGpVpn.png",
       "groups": [
         "reward"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4653,6 +6080,13 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/ygGpVpn.png",
       "groups": [
         "reward"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4675,6 +6109,13 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/ygGpVpn.png",
       "groups": [
         "reward"
+      ],
+      "weight": 200000,
+      "weights": [
+        70000,
+        60000,
+        40000,
+        30000
       ]
     },
     {
@@ -4699,7 +6140,8 @@
       "groups": [
         "attack",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "sandstone-resilience",
@@ -4723,7 +6165,8 @@
       "groups": [
         "defense",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "pirate-s-expertise",
@@ -4747,7 +6190,8 @@
       "groups": [
         "dexterity",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "mermaid-magic",
@@ -4771,7 +6215,8 @@
       "groups": [
         "mana",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "vampiric-lifeforce",
@@ -4796,7 +6241,8 @@
         "mana",
         "life",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "stheno-s-swiftness",
@@ -4820,7 +6266,8 @@
       "groups": [
         "speed",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "crystalline-vigor",
@@ -4844,7 +6291,8 @@
       "groups": [
         "vitality",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "avalon-s-intellect",
@@ -4868,7 +6316,8 @@
       "groups": [
         "wisdom",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "jester-s-trick",
@@ -4892,7 +6341,8 @@
         "mana",
         "life",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "flurry-of-blows",
@@ -4919,7 +6369,8 @@
         "fire_rate",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "overwhelming-strikes",
@@ -4946,7 +6397,8 @@
         "fire_rate",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "unholy-spirits",
@@ -4974,7 +6426,8 @@
         "proc",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "lucky-streak",
@@ -4996,7 +6449,8 @@
       "groups": [
         "reward",
         "unique"
-      ]
+      ],
+      "weight": 2000
     },
     {
       "id": "ascension-of-geb",
@@ -5021,7 +6475,8 @@
         "life",
         "attack",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "augment-overload",
@@ -5052,7 +6507,8 @@
         "fire_rate",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "augment-overdrive",
@@ -5083,7 +6539,8 @@
         "fire_rate",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "ascension-of-nut",
@@ -5108,7 +6565,8 @@
         "life",
         "wisdom",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "arcane-battery",
@@ -5132,7 +6590,8 @@
       "groups": [
         "mana",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "ascension-of-bes",
@@ -5157,7 +6616,8 @@
         "life",
         "defense",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "candy-coated",
@@ -5184,7 +6644,8 @@
         "defense",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 1500
     },
     {
       "id": "freezing-regeneration",
@@ -5213,7 +6674,8 @@
         "proc",
         "buffs",
         "unique"
-      ]
+      ],
+      "weight": null
     },
     {
       "id": "frost-barrier",
@@ -5241,7 +6703,8 @@
         "proc",
         "buffs",
         "unique"
-      ]
+      ],
+      "weight": null
     },
     {
       "id": "permafrost-magic",
@@ -5270,7 +6733,8 @@
         "proc",
         "buffs",
         "unique"
-      ]
+      ],
+      "weight": null
     },
     {
       "id": "snow-golems",
@@ -5297,7 +6761,8 @@
         "ability",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": null
     },
     {
       "id": "eternal-restoration",
@@ -5325,7 +6790,8 @@
         "life",
         "recovery",
         "unique"
-      ]
+      ],
+      "weight": null
     },
     {
       "id": "razor-shards",
@@ -5350,7 +6816,8 @@
         "weapon_damage",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": null
     },
     {
       "id": "ancient-s-blessing",
@@ -5374,7 +6841,8 @@
         "dexterity",
         "defense",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "ancient-artifacts",
@@ -5404,7 +6872,8 @@
         "recovery",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "apitoxin",
@@ -5430,7 +6899,8 @@
         "fire_rate",
         "range",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "artificial-core",
@@ -5458,7 +6928,8 @@
         "proc",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "bone-claws",
@@ -5486,7 +6957,8 @@
         "proc",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "buzzing-bullets",
@@ -5513,7 +6985,8 @@
         "range",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "crystalline-channel",
@@ -5535,7 +7008,8 @@
         "dexterity",
         "wisdom",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "crystal-shards",
@@ -5566,7 +7040,8 @@
         "reward",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "draconic-gaze",
@@ -5589,7 +7064,8 @@
         "mana",
         "buffs",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "drake-warden",
@@ -5615,7 +7091,8 @@
         "attack",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "el-dorado-s-legacy",
@@ -5639,7 +7116,8 @@
         "dexterity",
         "wisdom",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "eye-of-the-spider",
@@ -5664,7 +7142,8 @@
         "dexterity",
         "weapon_damage",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "fractured-blade",
@@ -5691,7 +7170,8 @@
         "range",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "hellfire-edge",
@@ -5720,7 +7200,8 @@
         "range",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "high-voltage",
@@ -5747,7 +7228,8 @@
         "fire_rate",
         "range",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "infernal-anger",
@@ -5775,7 +7257,8 @@
         "attack",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "kogbold-spirit",
@@ -5804,7 +7287,8 @@
         "proc",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "living-hive",
@@ -5827,7 +7311,8 @@
         "speed",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "masked-god-s-dance",
@@ -5850,7 +7335,8 @@
       "groups": [
         "dexterity",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "molecular-blade",
@@ -5877,7 +7363,8 @@
         "range",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "necrotic-knowledge",
@@ -5904,7 +7391,8 @@
         "wisdom",
         "ability",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "night-s-soul",
@@ -5929,7 +7417,8 @@
         "life",
         "reward",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "night-s-strength",
@@ -5952,7 +7441,8 @@
         "weapon_damage",
         "fire_rate",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "night-s-tenacity",
@@ -5978,7 +7468,8 @@
         "life",
         "recovery",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "night-s-wisdom",
@@ -6009,7 +7500,8 @@
         "ability",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "raijin-s-dance",
@@ -6026,7 +7518,8 @@
       "icon": "https://www.realmeye.com/s/a/img/wiki/i/kkY4WuS.png",
       "groups": [
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "soulful-mastery",
@@ -6054,7 +7547,8 @@
         "fire_rate",
         "range",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "swarm-tree-s-wrath",
@@ -6081,7 +7575,8 @@
         "range",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "the-king-s-treasure",
@@ -6108,7 +7603,8 @@
         "defense",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "thornswarm",
@@ -6135,7 +7631,8 @@
         "range",
         "tradeoff",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "venom-coating",
@@ -6162,7 +7659,8 @@
         "range",
         "proc",
         "unique"
-      ]
+      ],
+      "weight": 7500
     },
     {
       "id": "stellar-ascend",
@@ -6187,7 +7685,8 @@
         "speed",
         "wisdom",
         "unique"
-      ]
+      ],
+      "weight": 1000
     },
     {
       "id": "bar-brawler",
@@ -6377,32 +7876,6 @@
         "fire_rate",
         "awakened"
       ]
-    },
-    {
-      "id": "summon-power-stat-mod-multiplier-tradeoff",
-      "name": "Summon Power Stat Mod Multiplier Tradeoff",
-      "category": "Dual Stat Enchantments",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "Increases Summon Power by 2/3/4/5 decreases Stat Mod value by 4%/11%/18%/25%",
-      "labels": [
-        "DUALSTAT",
-        "STATMODMULT",
-        "SUMMONPOWER",
-        "MPCOSTREDUCTION",
-        "TRADEOFF"
-      ],
-      "incompatibleLabels": [
-        "STATMODMULT",
-        "MPCOSTREDUCTION"
-      ],
-      "icon": "",
-      "groups": [
-        "mana",
-        "proc",
-        "tradeoff"
-      ]
     }
   ],
   "groupDefinitions": [
@@ -6475,6 +7948,10 @@
       "name": "Tradeoffs"
     },
     {
+      "id": "awakened",
+      "name": "Awakened"
+    },
+    {
       "id": "unique",
       "name": "Uniques / spéciaux"
     },
@@ -6483,19 +7960,20 @@
       "name": "Autres"
     }
   ],
-  "sourceUrl": "https://www.realmeye.com/wiki/enchanting",
-  "lastRealmEyeDetection": {
-    "checkedAt": "2026-06-04T11:35:42Z",
-    "parsedRealmEyeCount": 267,
-    "newCount": 7,
-    "newEnchantIds": [
-      "bar-brawler",
-      "consuming-void",
-      "coral-volley",
-      "cursebearer",
-      "n-o-v-a",
-      "spellsword-mastery",
-      "summon-power-stat-mod-multiplier-tradeoff"
+  "weightImport": {
+    "sourceWorkbook": "Equipment Rarity Public List.xlsx",
+    "sourceSheets": [
+      "Enchantment List",
+      "Public Testing Enchantment List"
+    ],
+    "matchedEnchants": 254,
+    "missingWeights": [
+      "Freezing Regeneration",
+      "Frost Barrier",
+      "Permafrost Magic",
+      "Snow Golems",
+      "Eternal Restoration",
+      "Razor Shards"
     ]
   }
 }
