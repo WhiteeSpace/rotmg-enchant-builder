@@ -1,7 +1,7 @@
 {
   "source": "RealmEye enchanting HTML",
   "generatedFrom": "html enchanting realmeye.html",
-  "updatedFromOriginalHtml": "2026-06-02",
+  "updatedFromOriginalHtml": "2026-06-04",
   "itemTypes": [
     "WEAPON",
     "ABILITY",
@@ -6188,6 +6188,221 @@
         "wisdom",
         "unique"
       ]
+    },
+    {
+      "id": "bar-brawler",
+      "name": "Bar Brawler",
+      "category": "Awakened Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Gain Attack equal to 15% of bonus Vitality. Now fires a combo string of shots, with the main shots dealing 300-400 damage, increasing to 350-450 damage later in the combo, and the finisher dealing 975-1350 damage.",
+      "labels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "CONVERSIONBONUS",
+        "SINGLESTAT",
+        "VITALITY",
+        "ATTACK"
+      ],
+      "incompatibleLabels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "WEAPONRANGE",
+        "SINGLESTAT"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/VZWSB5r.png",
+      "groups": [
+        "attack",
+        "vitality",
+        "weapon_damage",
+        "fire_rate",
+        "awakened"
+      ]
+    },
+    {
+      "id": "consuming-void",
+      "name": "Consuming Void",
+      "category": "Awakened Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Fires a massive slow moving shot at 15% rate of fire that pierces and deals 700-800 damage. Additionally fires two more shots that deal 50-60 damage.",
+      "labels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "WEAPONRANGE"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/IPjdGjw.png",
+      "groups": [
+        "weapon_damage",
+        "fire_rate",
+        "proc",
+        "awakened"
+      ]
+    },
+    {
+      "id": "coral-volley",
+      "name": "Coral Volley",
+      "category": "Awakened Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Gain 5 Dexterity. Fire a varying volley of additional arrows that deal 10-20 armor piercing damage.",
+      "labels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "SINGLESTAT",
+        "DEXTERITY"
+      ],
+      "incompatibleLabels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "WEAPONRANGE",
+        "SINGLESTAT"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AtzFLMv.png",
+      "groups": [
+        "dexterity",
+        "weapon_damage",
+        "fire_rate",
+        "proc",
+        "awakened",
+        "armor_piercing"
+      ]
+    },
+    {
+      "id": "cursebearer",
+      "name": "Cursebearer",
+      "category": "Awakened Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Now always curses on ability use. When cursed gain 10 Def, 10 Wisdom, and a 20 hp/s healing buff on shoot. Additionally increases weapon damage by 5%.",
+      "labels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "ONSHOOTSTAT",
+        "PROCDEFENSE",
+        "PROCWISDOM"
+      ],
+      "incompatibleLabels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "WEAPONRANGE",
+        "ONSHOOTSTAT",
+        "PROCDEFENSE",
+        "PROCWISDOM"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hhubbrV.png",
+      "groups": [
+        "defense",
+        "wisdom",
+        "life",
+        "weapon_damage",
+        "fire_rate",
+        "ability",
+        "recovery",
+        "proc",
+        "awakened"
+      ]
+    },
+    {
+      "id": "n-o-v-a",
+      "name": "N.O.V.A.",
+      "category": "Awakened Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Gain 5 Wisdom. On Enemy Hit unleashes an energy blast | firing 10 shots that deal 40 damage plus 1 additional damage every 2 Wisdom over 50. Cooldown 1 second.",
+      "labels": [
+        "AWAKENED",
+        "SINGLESTAT",
+        "WISDOM",
+        "BULLETCREATE"
+      ],
+      "incompatibleLabels": [
+        "AWAKENED",
+        "SINGLESTAT"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/BZxFqf6.png",
+      "groups": [
+        "wisdom",
+        "weapon_damage",
+        "ability",
+        "awakened"
+      ]
+    },
+    {
+      "id": "spellsword-mastery",
+      "name": "Spellsword Mastery",
+      "category": "Awakened Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Gain 5 Wisdom and Dexterity equal to 10% of bonus Wisdom, the Rapier’s Lunge now triggers every 3 shots instead of 5.",
+      "labels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "DUALSTAT",
+        "CONVERSIONBONUS",
+        "WISDOM",
+        "DEXTERITY"
+      ],
+      "incompatibleLabels": [
+        "AWAKENED",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "WEAPONRANGE",
+        "DUALSTAT"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/lwiuZw4.png",
+      "groups": [
+        "dexterity",
+        "wisdom",
+        "weapon_damage",
+        "fire_rate",
+        "awakened"
+      ]
+    },
+    {
+      "id": "summon-power-stat-mod-multiplier-tradeoff",
+      "name": "Summon Power Stat Mod Multiplier Tradeoff",
+      "category": "Dual Stat Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "Increases Summon Power by 2/3/4/5 decreases Stat Mod value by 4%/11%/18%/25%",
+      "labels": [
+        "DUALSTAT",
+        "STATMODMULT",
+        "SUMMONPOWER",
+        "MPCOSTREDUCTION",
+        "TRADEOFF"
+      ],
+      "incompatibleLabels": [
+        "STATMODMULT",
+        "MPCOSTREDUCTION"
+      ],
+      "icon": "",
+      "groups": [
+        "mana",
+        "proc",
+        "tradeoff"
+      ]
     }
   ],
   "groupDefinitions": [
@@ -6267,5 +6482,20 @@
       "id": "other",
       "name": "Autres"
     }
-  ]
+  ],
+  "sourceUrl": "https://www.realmeye.com/wiki/enchanting",
+  "lastRealmEyeDetection": {
+    "checkedAt": "2026-06-04T11:35:42Z",
+    "parsedRealmEyeCount": 267,
+    "newCount": 7,
+    "newEnchantIds": [
+      "bar-brawler",
+      "consuming-void",
+      "coral-volley",
+      "cursebearer",
+      "n-o-v-a",
+      "spellsword-mastery",
+      "summon-power-stat-mod-multiplier-tradeoff"
+    ]
+  }
 }
