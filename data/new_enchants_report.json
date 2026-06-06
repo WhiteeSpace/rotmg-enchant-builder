@@ -1,236 +1,224 @@
 {
   "status": "ok",
   "message": "Detected 7 new enchant(s).",
-  "checkedAt": "2026-06-04T11:35:42Z",
+  "checkedAt": "2026-06-06T15:59:03Z",
   "sourceUrl": "https://www.realmeye.com/wiki/enchanting",
-  "currentCount": 260,
-  "parsedRealmEyeCount": 267,
+  "currentCount": 267,
+  "parsedRealmEyeCount": 274,
   "missingCurrentCount": 0,
   "missingCurrentIds": [],
   "newCount": 7,
   "newEnchantIds": [
-    "bar-brawler",
-    "consuming-void",
-    "coral-volley",
-    "cursebearer",
-    "n-o-v-a",
-    "spellsword-mastery",
-    "summon-power-stat-mod-multiplier-tradeoff"
+    "alien-onshoot-attack-boost",
+    "alien-onshoot-defense-boost",
+    "alien-onshoot-dexterity-boost",
+    "alien-onshoot-heal",
+    "alien-onshoot-magic",
+    "alien-onshoot-vitality-boost",
+    "alien-onshoot-wisdom-boost"
   ],
   "newEnchants": [
     {
-      "id": "bar-brawler",
-      "name": "Bar Brawler",
-      "category": "Awakened Enchantments",
+      "id": "alien-onshoot-attack-boost",
+      "name": "Alien OnShoot Attack Boost",
+      "category": "Weapon Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "Gain Attack equal to 15% of bonus Vitality. Now fires a combo string of shots, with the main shots dealing 300-400 damage, increasing to 350-450 damage later in the combo, and the finisher dealing 975-1350 damage.",
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 10 ATT for 7 Seconds. 15 Second Cooldown",
       "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "CONVERSIONBONUS",
-        "SINGLESTAT",
-        "VITALITY",
-        "ATTACK"
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "ATTACK",
+        "PROCATTACK"
       ],
       "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE",
-        "SINGLESTAT"
+        "ONSHOOTSTAT",
+        "PROCATTACK"
       ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/VZWSB5r.png",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
       "groups": [
         "attack",
-        "vitality",
-        "weapon_damage",
-        "fire_rate",
-        "awakened"
+        "ability",
+        "proc"
       ]
     },
     {
-      "id": "consuming-void",
-      "name": "Consuming Void",
-      "category": "Awakened Enchantments",
+      "id": "alien-onshoot-defense-boost",
+      "name": "Alien OnShoot Defense Boost",
+      "category": "Weapon Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "Fires a massive slow moving shot at 15% rate of fire that pierces and deals 700-800 damage. Additionally fires two more shots that deal 50-60 damage.",
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 12 DEF for 7 Seconds. 15 Second Cooldown",
       "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/IPjdGjw.png",
-      "groups": [
-        "weapon_damage",
-        "fire_rate",
-        "proc",
-        "awakened"
-      ]
-    },
-    {
-      "id": "coral-volley",
-      "name": "Coral Volley",
-      "category": "Awakened Enchantments",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "Gain 5 Dexterity. Fire a varying volley of additional arrows that deal 10-20 armor piercing damage.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "SINGLESTAT",
-        "DEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE",
-        "SINGLESTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/AtzFLMv.png",
-      "groups": [
-        "dexterity",
-        "weapon_damage",
-        "fire_rate",
-        "proc",
-        "awakened",
-        "armor_piercing"
-      ]
-    },
-    {
-      "id": "cursebearer",
-      "name": "Cursebearer",
-      "category": "Awakened Enchantments",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "Now always curses on ability use. When cursed gain 10 Def, 10 Wisdom, and a 20 hp/s healing buff on shoot. Additionally increases weapon damage by 5%.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
         "ONSHOOTSTAT",
-        "PROCDEFENSE",
-        "PROCWISDOM"
+        "PROC",
+        "STATBOOST",
+        "DEFENSE",
+        "PROCDEFENSE"
       ],
       "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE",
         "ONSHOOTSTAT",
-        "PROCDEFENSE",
-        "PROCWISDOM"
+        "PROCDEFENSE"
       ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/hhubbrV.png",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
       "groups": [
         "defense",
-        "wisdom",
-        "life",
-        "weapon_damage",
-        "fire_rate",
         "ability",
-        "recovery",
-        "proc",
-        "awakened"
+        "proc"
       ]
     },
     {
-      "id": "n-o-v-a",
-      "name": "N.O.V.A.",
-      "category": "Awakened Enchantments",
+      "id": "alien-onshoot-dexterity-boost",
+      "name": "Alien OnShoot Dexterity Boost",
+      "category": "Weapon Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "Gain 5 Wisdom. On Enemy Hit unleashes an energy blast | firing 10 shots that deal 40 damage plus 1 additional damage every 2 Wisdom over 50. Cooldown 1 second.",
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 10 DEX for 7 Seconds. 15 Second Cooldown",
       "labels": [
-        "AWAKENED",
-        "SINGLESTAT",
-        "WISDOM",
-        "BULLETCREATE"
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEXTERITY",
+        "PROCDEXTERITY"
       ],
       "incompatibleLabels": [
-        "AWAKENED",
-        "SINGLESTAT"
+        "ONSHOOTSTAT",
+        "PROCDEXTERITY"
       ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/BZxFqf6.png",
-      "groups": [
-        "wisdom",
-        "weapon_damage",
-        "ability",
-        "awakened"
-      ]
-    },
-    {
-      "id": "spellsword-mastery",
-      "name": "Spellsword Mastery",
-      "category": "Awakened Enchantments",
-      "eligible": [
-        "ALL"
-      ],
-      "effects": "Gain 5 Wisdom and Dexterity equal to 10% of bonus Wisdom, the Rapier’s Lunge now triggers every 3 shots instead of 5.",
-      "labels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "DUALSTAT",
-        "CONVERSIONBONUS",
-        "WISDOM",
-        "DEXTERITY"
-      ],
-      "incompatibleLabels": [
-        "AWAKENED",
-        "WEAPONDAMAGE",
-        "WEAPONFIRERATE",
-        "WEAPONRANGE",
-        "DUALSTAT"
-      ],
-      "icon": "https://www.realmeye.com/s/a/img/wiki/i/lwiuZw4.png",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
       "groups": [
         "dexterity",
-        "wisdom",
-        "weapon_damage",
-        "fire_rate",
-        "awakened"
+        "ability",
+        "proc"
       ]
     },
     {
-      "id": "summon-power-stat-mod-multiplier-tradeoff",
-      "name": "Summon Power Stat Mod Multiplier Tradeoff",
-      "category": "Dual Stat Enchantments",
+      "id": "alien-onshoot-heal",
+      "name": "Alien OnShoot Heal",
+      "category": "Weapon Enchantments",
       "eligible": [
         "ALL"
       ],
-      "effects": "Increases Summon Power by 2/3/4/5 decreases Stat Mod value by 4%/11%/18%/25%",
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot while below 90% HP to restore 60 HP | 15 seconds cooldown",
       "labels": [
-        "DUALSTAT",
-        "STATMODMULT",
-        "SUMMONPOWER",
-        "MPCOSTREDUCTION",
-        "TRADEOFF"
+        "WEAPON",
+        "RING",
+        "RECOVERY",
+        "ONSHOOT",
+        "PROC",
+        "HEAL"
       ],
       "incompatibleLabels": [
-        "STATMODMULT",
-        "MPCOSTREDUCTION"
+        "HEAL"
       ],
-      "icon": "",
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "life",
+        "ability",
+        "recovery",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-magic",
+      "name": "Alien OnShoot Magic",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot while below 80% MP to restore 60 MP | 15 seconds cooldown",
+      "labels": [
+        "WEAPON",
+        "RING",
+        "RECOVERY",
+        "ONSHOOT",
+        "PROC",
+        "MAGIC"
+      ],
+      "incompatibleLabels": [
+        "MAGIC"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
       "groups": [
         "mana",
-        "proc",
-        "tradeoff"
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-vitality-boost",
+      "name": "Alien OnShoot Vitality Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 12 VIT for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "VITALITY",
+        "PROCVITALITY"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCVITALITY"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "vitality",
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-wisdom-boost",
+      "name": "Alien OnShoot Wisdom Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 12 WIS for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "WISDOM",
+        "PROCWISDOM"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCWISDOM"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "wisdom",
+        "ability",
+        "proc"
       ]
     }
   ]
