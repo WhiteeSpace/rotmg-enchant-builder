@@ -1,7 +1,7 @@
 {
   "source": "RealmEye enchanting HTML",
   "generatedFrom": "html enchanting realmeye.html",
-  "updatedFromOriginalHtml": "2026-06-02",
+  "updatedFromOriginalHtml": "2026-06-06",
   "itemTypes": [
     "WEAPON",
     "ABILITY",
@@ -10952,6 +10952,209 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alien-onshoot-attack-boost",
+      "name": "Alien OnShoot Attack Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 10 ATT for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "ATTACK",
+        "PROCATTACK"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCATTACK"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "attack",
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-defense-boost",
+      "name": "Alien OnShoot Defense Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 12 DEF for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEFENSE",
+        "PROCDEFENSE"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCDEFENSE"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "defense",
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-dexterity-boost",
+      "name": "Alien OnShoot Dexterity Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 10 DEX for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEXTERITY",
+        "PROCDEXTERITY"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCDEXTERITY"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "dexterity",
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-heal",
+      "name": "Alien OnShoot Heal",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot while below 90% HP to restore 60 HP | 15 seconds cooldown",
+      "labels": [
+        "WEAPON",
+        "RING",
+        "RECOVERY",
+        "ONSHOOT",
+        "PROC",
+        "HEAL"
+      ],
+      "incompatibleLabels": [
+        "HEAL"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "life",
+        "ability",
+        "recovery",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-magic",
+      "name": "Alien OnShoot Magic",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot while below 80% MP to restore 60 MP | 15 seconds cooldown",
+      "labels": [
+        "WEAPON",
+        "RING",
+        "RECOVERY",
+        "ONSHOOT",
+        "PROC",
+        "MAGIC"
+      ],
+      "incompatibleLabels": [
+        "MAGIC"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "mana",
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-vitality-boost",
+      "name": "Alien OnShoot Vitality Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 12 VIT for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "VITALITY",
+        "PROCVITALITY"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCVITALITY"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "vitality",
+        "ability",
+        "proc"
+      ]
+    },
+    {
+      "id": "alien-onshoot-wisdom-boost",
+      "name": "Alien OnShoot Wisdom Boost",
+      "category": "Weapon Enchantments",
+      "eligible": [
+        "ALL"
+      ],
+      "effects": "When at least one Alien Gear is equipped - 5% Chance On Shoot to gain 12 WIS for 7 Seconds. 15 Second Cooldown",
+      "labels": [
+        "WEAPON",
+        "ARMOR",
+        "RING",
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "WISDOM",
+        "PROCWISDOM"
+      ],
+      "incompatibleLabels": [
+        "ONSHOOTSTAT",
+        "PROCWISDOM"
+      ],
+      "icon": "https://www.realmeye.com/s/a/img/wiki/i/wd5Zwia.png",
+      "groups": [
+        "wisdom",
+        "ability",
+        "proc"
+      ]
     }
   ],
   "groupDefinitions": [
@@ -11060,5 +11263,20 @@
     "Single Stat Enchantments": "https://www.realmeye.com/s/a/img/wiki/i/G653TKh.png",
     "Dual Stat Enchantments": "https://www.realmeye.com/s/a/img/wiki/i/I0DdmsO.png",
     "Reward Enchantments": "https://www.realmeye.com/s/a/img/wiki/i/97zve4k.png"
+  },
+  "sourceUrl": "https://www.realmeye.com/wiki/enchanting",
+  "lastRealmEyeDetection": {
+    "checkedAt": "2026-06-06T15:59:03Z",
+    "parsedRealmEyeCount": 274,
+    "newCount": 7,
+    "newEnchantIds": [
+      "alien-onshoot-attack-boost",
+      "alien-onshoot-defense-boost",
+      "alien-onshoot-dexterity-boost",
+      "alien-onshoot-heal",
+      "alien-onshoot-magic",
+      "alien-onshoot-vitality-boost",
+      "alien-onshoot-wisdom-boost"
+    ]
   }
 }
