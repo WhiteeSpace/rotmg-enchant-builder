@@ -95036,8 +95036,8 @@
     "id": 31595,
     "name": "Sigil of the Bunny",
     "description": "A pendant with a carved turquoise stone resembling the form of a bunny.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 1,
     "labels": [
@@ -95107,14 +95107,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31596,
     "name": "Sigil of the Skunk",
     "description": "A bronze pendant symbolising the skunk whose form is deceptively powerful to a druid’s foes.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 2,
     "labels": [
@@ -95184,14 +95186,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31597,
     "name": "Sigil of the Fox",
     "description": "A pendant bearing the form of a fox which is reserved only for more advanced druids. The speed and cunning provided by the transformation is a powerful tool for druids.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 3,
     "labels": [
@@ -95263,14 +95267,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31598,
     "name": "Sigil of the Wolf",
     "description": "A silver pendant representing the wolf, this form is similar to the fox but provides additional strength for combat druids to leverage over their enemies.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 4,
     "labels": [
@@ -95342,14 +95348,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31600,
     "name": "Sigil of the Boar",
     "description": "A boar shaped pendant, its form radiates strength and tenacity. Druids capable of sustaining this form are among the strongest the druidic orders have to offer.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 5,
     "labels": [
@@ -95421,14 +95429,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31601,
     "name": "Sigil of the Horse",
     "description": "A golden sigil set with sapphire gemstones, druids call upon the form of the horse for its high strength and unparalleled stamina.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 6,
     "labels": [
@@ -95514,14 +95524,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31602,
     "name": "Sigil of the Rhino",
     "description": "A gilded sigil with ruby gemstones, delicately shaped into the form of the Rhino. This form represents the pinnacle of normal druids, only surpassed by druids choosing to specialize in more mythical creatures.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "tier": 7,
     "labels": [
@@ -95607,14 +95619,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31648,
     "name": "Crystalline Sigil",
     "description": "An incredibly complex and durable crystalline structure appears on this pendant where a druid might expect the representation of an animal. Familiarising oneself with its forms is incredibly difficult but druids who succeed find themselves to be unbreakable walls against all forms of threat.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -95690,14 +95704,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31611,
     "name": "Draconic Insignia",
     "description": "This relic was once used by a secluded cult of dragon worshippers. A druid may tap into its arcane power to embrace the form of a dragon.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -95787,15 +95803,17 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31650,
     "name": "AoO Sigil",
     "displayName": "Hawkmaster Sigil",
     "description": "Similar to the falconers in the ranks of Chief Beisa, the agents of oryx employed hawks to do their bidding. Their speed and hunting acumen allow them to be incredible inspiration for druids among the agent’s ranks.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -95865,14 +95883,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 54923,
     "name": "Hydroflow Sigil",
     "description": "This sacred druid sigil allows the user to take on the form of a great serpent from the darkest depths of the ocean.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -95959,14 +95979,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31652,
     "name": "Legion Elite Sigil",
     "description": "A pair of horns adorning a nightmatter-weave band. Allows one to mimic the full combat abilities of chief beisa",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96052,15 +96074,17 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31649,
     "name": "DruidST1",
     "displayName": "Mechraptor Sigil",
     "description": "This device was forged by an engineer attempting to artificially recreate the ways of the druid. Using it allows for not only summoning robotic raptor companions, but to form a suit of armor that might be piloted to lead them.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96128,14 +96152,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31603,
     "name": "Sharktooth Sigil",
     "description": "This necklace is adorned with the tooth of a great white shark. Druids who familiarize themselves with this item may take on its form becoming the apex of the seas.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96212,15 +96238,17 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 7473,
     "name": "Sharktooth Sigil Shiny",
     "displayName": "Sharktooth Sigil",
     "description": "This necklace is adorned with the tooth of a great white shark. Druids who familiarize themselves with this item may take on its form becoming the apex of the seas.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96298,14 +96326,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31653,
     "name": "Sigil of the Reindeer",
     "description": "This pendant radiates warmth that staves off the winter cold, it is adorned with a symbol of a reindeer. Some druids believe the form is capable of flight.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96390,14 +96420,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31651,
     "name": "Sigil of the Rubber Duck",
     "description": "A powerful sigil displaying the form of the most menacing creature of the realm. Acts as a flotation device in a pinch.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96457,14 +96489,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31607,
     "name": "Silken Sigil",
     "description": "A live spiderling with a string formed of its own silk, a druid may befriend it to gain increased familiarity with the form of a spider, a traditionally hard form to undertake.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96541,14 +96575,16 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 31612,
     "name": "Swarmlord's Sigil",
     "description": "Fashioned by the Beekeeper, this pendant allows the wearer to command the forces of the nest directing swarms of bees to attack the wearer's enemies.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96624,15 +96660,17 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 7463,
     "name": "Swarmlord's Sigil Shiny",
     "displayName": "Swarmlord's Sigil",
     "description": "Fashioned by the Beekeeper, this pendant allows the wearer to command the forces of the nest directing swarms of bees to attack the wearer's enemies.",
-    "category": "weapon",
-    "subcategory": "flail",
+    "category": "ability",
+    "subcategory": "sigil",
     "slotType": 31,
     "labels": [
       "EQUIPMENT",
@@ -96709,7 +96747,9 @@
         "parametric": false,
         "boomerang": false
       }
-    ]
+    ],
+    "type": "ABILITY",
+    "slot_type": "sigil"
   },
   {
     "id": 3141,
