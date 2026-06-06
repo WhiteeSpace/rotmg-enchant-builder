@@ -815,6 +815,47 @@ html{scrollbar-width:thin;scrollbar-color:#3a3a3a #111}
     grid-template-columns:34px repeat(4,minmax(44px,1fr)) minmax(110px,1.4fr)!important;
   }
 }
+
+/* Chrome overflow fix: keep Stats Calculator inside its panel */
+.stats-calc{
+  max-width:100%!important;
+  overflow:hidden!important;
+}
+.stats-calc-grid{
+  grid-template-columns:38px minmax(48px,56px) minmax(48px,56px) minmax(48px,56px) minmax(62px,72px) minmax(118px,1fr)!important;
+  max-width:100%!important;
+}
+.stats-calc-final{
+  overflow:hidden!important;
+  white-space:nowrap!important;
+}
+.stats-calc-final-details,
+.stats-calc-total-part{
+  white-space:nowrap!important;
+}
+@media(min-width:1501px){
+  .stats-calc-grid{
+    grid-template-columns:40px minmax(54px,62px) minmax(54px,62px) minmax(54px,62px) minmax(72px,82px) minmax(150px,1fr)!important;
+  }
+}
+@media(max-width:1350px){
+  .stats-calc-grid{
+    grid-template-columns:36px minmax(44px,52px) minmax(44px,52px) minmax(44px,52px) minmax(58px,66px) minmax(105px,1fr)!important;
+    gap:5px!important;
+  }
+  .stats-calc-input,
+  .stats-calc-cell{
+    font-size:16px!important;
+  }
+  .stats-calc-final,
+  .stats-calc-stat{
+    font-size:17px!important;
+  }
+  .stats-calc-final-details,
+  .stats-calc-total-part{
+    font-size:12px!important;
+  }
+}
 </style>
 </head><body><div class="app">
 <header class="hero"><div class="brand"><div><h1>ROTMG Enchant Builder</h1></div><img class="site-logo" src="data/forge-logo.gif" alt="Forge"></div></header>
